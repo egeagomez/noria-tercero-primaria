@@ -21,3 +21,7 @@ La autenticación y la comprobación de escritura ya están completadas. El usua
 
 Destino elegido: [egeagomez/noria-tercero-primaria](https://github.com/egeagomez/noria-tercero-primaria). `colemartinezbernal` contiene el proyecto de segundo curso. GitHub Pages no se ha activado; se mantiene pendiente la revisión en navegador y la elección de licencia de redistribución abierta. Las herramientas locales de `.agents`, mochilas, archivos de entorno y credenciales se excluyen del repositorio.
 
+## Subida realizada
+
+El 17/10/2026 se creó el repositorio público y se subió la rama `main` mediante Git Credential Manager. Primera versión: commit `a7dbc50`, 113 archivos. Contiene especificaciones de las 176 misiones, las fuentes y recursos de 32 juegos de Matemáticas/Lengua y sus versiones HTML autónomas. El push terminó correctamente. La publicación como sitio GitHub Pages es un paso separado y sigue pendiente.
+

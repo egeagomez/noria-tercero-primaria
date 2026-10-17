@@ -35,7 +35,7 @@ La mochila exporta e importa JSON y ofrece un resumen CSV. Las creaciones, respu
 
 [Viabilidad y límites de Pages Free](openspec/changes/tercero-primaria-primer-trimestre/estudio-github-pages.md) y [comprobación de acceso a egeagomez](openspec/changes/tercero-primaria-primer-trimestre/comprobacion-github.md).
 
-El usuario ha autorizado subir esta primera versión al nuevo repositorio público `egeagomez/noria-tercero-primaria`. Incluye fuentes, especificaciones, recursos visuales y las 32 misiones con sus descargas autónomas. El contenido estático de `dist` está preparado para GitHub Pages, que todavía no se ha activado. La cuenta se autentica mediante Git Credential Manager; las credenciales no forman parte del proyecto. Las herramientas locales de `.agents` permanecen fuera del repositorio. Nunca publicar mochilas exportadas ni datos del alumnado; revisar también el repositorio y su historial.
+La primera versión está subida al repositorio público `egeagomez/noria-tercero-primaria`, rama `main`, con autorización del usuario. Incluye fuentes, especificaciones, recursos visuales y las 32 misiones con sus descargas autónomas. El contenido estático de `dist` está preparado para GitHub Pages, que todavía no se ha activado. La cuenta se autentica mediante Git Credential Manager; las credenciales no forman parte del proyecto. Las herramientas locales de `.agents` permanecen fuera del repositorio. Nunca publicar mochilas exportadas ni datos del alumnado; revisar también el repositorio y su historial.
 
 ## Estado y recursos
 
