@@ -54,7 +54,7 @@ La hoja conceptual contiene16poses transparentes de los cuatro personajes y requ
 
 ## GitHub
 
-**Repositorio publicado:** [egeagomez/noria-tercero-primaria](https://github.com/egeagomez/noria-tercero-primaria). La primera versión se subió el 17/10/2026 a la rama `main` con autorización del usuario. Incluye 113 archivos con fuentes, planificación, personajes y los 32 juegos construidos. GitHub Pages permanece pendiente de activación. [Resultado detallado](comprobacion-github.md).
+**Repositorio publicado:** [egeagomez/noria-tercero-primaria](https://github.com/egeagomez/noria-tercero-primaria). La primera versión se subió el 17/10/2026 a la rama `main` con autorización del usuario. Incluye fuentes, planificación, personajes y los 32 juegos construidos. **[GitHub Pages está activo por HTTPS](https://egeagomez.github.io/noria-tercero-primaria/)** y publica la carpeta `dist`. [Resultado detallado](comprobacion-github.md).
 
 [Estudio de GitHub Pages Free](estudio-github-pages.md): viable para el sitio estático público, con progreso por navegador y exportación manual. El nuevo presupuesto contempla las176misiones y sus descargas, manteniendo el máximo de1GB de Pages. La publicación exige revisar tanto el sitio como el repositorio fuente y su historial.
 
@@ -69,5 +69,5 @@ La hoja conceptual contiene16poses transparentes de los cuatro personajes y requ
 - [Contrato de sprites](specs/personajes-sprites/spec.md).
 - [CalendarioJSON](calendario-semanal.json), [metadatos de Ciencias/Artes](datos-semanales-ciencias-artes.json) y [metadatos de Lengua/Matemáticas/proyectos](datos-semanales-humanidades.json).
 
-La primera versión implementa los recursos comunes y las 16 misiones de Matemáticas y 16 de Lengua, con 32 descargas HTML autónomas. Se construye mediante `npm run build`. Las demás asignaturas conservan sus especificaciones para una fase posterior. Quedan pendientes los recorridos de aceptación en navegador, la revisión técnica definitiva del atlas y el cotejo exacto de los índices señalados. El repositorio ya está publicado; el despliegue de la web con GitHub Pages queda pendiente.
+La primera versión implementa los recursos comunes y las 16 misiones de Matemáticas y 16 de Lengua, con 32 descargas HTML autónomas. Se construye mediante `npm run build`. Las demás asignaturas conservan sus especificaciones para una fase posterior. Quedan pendientes los recorridos de aceptación en navegador, la revisión técnica definitiva del atlas y el cotejo exacto de los índices señalados. El repositorio y la web GitHub Pages ya están publicados.
 

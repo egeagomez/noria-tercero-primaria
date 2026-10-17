@@ -4,6 +4,8 @@ Materiales originales para 3.º de Primaria del CEIP Maestro Francisco Martínez
 
 Repositorio: [egeagomez/noria-tercero-primaria](https://github.com/egeagomez/noria-tercero-primaria).
 
+**Jugar en línea:** [La Noria de los Descubrimientos](https://egeagomez.github.io/noria-tercero-primaria/).
+
 ## Abrir los juegos
 
 Abre [el catálogo](dist/index.html) en el navegador. Incluye **16 misiones de Matemáticas y 16 de Lengua** con Nori, Sira, Plumi y Lumo. Cada misión tiene actividades, pistas, una creación abierta y un registro de observación para el docente.
@@ -35,7 +37,7 @@ La mochila exporta e importa JSON y ofrece un resumen CSV. Las creaciones, respu
 
 [Viabilidad y límites de Pages Free](openspec/changes/tercero-primaria-primer-trimestre/estudio-github-pages.md) y [comprobación de acceso a egeagomez](openspec/changes/tercero-primaria-primer-trimestre/comprobacion-github.md).
 
-La primera versión está subida al repositorio público `egeagomez/noria-tercero-primaria`, rama `main`, con autorización del usuario. Incluye fuentes, especificaciones, recursos visuales y las 32 misiones con sus descargas autónomas. El contenido estático de `dist` está preparado para GitHub Pages, que todavía no se ha activado. La cuenta se autentica mediante Git Credential Manager; las credenciales no forman parte del proyecto. Las herramientas locales de `.agents` permanecen fuera del repositorio. Nunca publicar mochilas exportadas ni datos del alumnado; revisar también el repositorio y su historial.
+La primera versión está subida al repositorio público `egeagomez/noria-tercero-primaria`, rama `main`, con autorización del usuario. Incluye fuentes, especificaciones, recursos visuales y las 32 misiones con sus descargas autónomas. **GitHub Pages está activo**, con HTTPS y publicación de `dist` mediante `.github/workflows/static.yml`. Cada push a `main` vuelve a desplegar esa carpeta: al cambiar contenidos o código, ejecutar primero `npm run build` y subir también los archivos actualizados de `dist`. La cuenta se autentica mediante Git Credential Manager; las credenciales no forman parte del proyecto. Las herramientas locales de `.agents` permanecen fuera del repositorio. Nunca publicar mochilas exportadas ni datos del alumnado; revisar también el repositorio y su historial.
 
 ## Estado y recursos
 

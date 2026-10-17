@@ -227,6 +227,6 @@ Se implementan primero Matemáticas y Lengua, con los recursos comunes necesario
 ## 7. Publicación de una versión elegida
 
 - [ ] 7.1 Autenticar egeagomez con escritura y preparar configuración para el repositorio elegido y revisión de licencias; verificar una lista concreta de archivos y versión lista para publicar cuando el usuario solicite el despliegue.
-- [ ] 7.2 Publicar esa versión con GitHub Pages yHTTPS; verificar URL real, acceso directo a una misión y descarga autónoma desde el sitio.
+- [x] 7.2 Publicar esa versión con GitHub Pages yHTTPS; verificar URL real, acceso directo a una misión y descarga autónoma desde el sitio.
 - [ ] 7.3 Documentar la versión y el procedimiento de volver a desplegar la anterior; verificar instrucciones reproducibles y que un cambio de publicación no borra progreso local.
 
