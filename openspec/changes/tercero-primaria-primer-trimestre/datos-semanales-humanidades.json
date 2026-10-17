@@ -1,0 +1,477 @@
+[
+  {
+    "slug": "lengua",
+    "missions": [
+      {
+        "title": "La nota de bienvenida de Nori",
+        "content": "Comprender una nota de tres frases e identificar quién invita y para qué.",
+        "mechanic": "En ocho minutos, elegir el destinatario y señalar una pista de la nota.",
+        "evidence": "Una selección acompañada de la frase que permite justificarla.",
+        "criteria": "4.1 — Identificar el sentido y la información relevante de un texto breve."
+      },
+      {
+        "title": "El principio que faltaba",
+        "content": "Reconocer personajes, lugar y situación inicial en un cuento breve original.",
+        "mechanic": "Relacionar tarjetas de personajes y escenarios con fragmentos del relato.",
+        "evidence": "Mapa sencillo del cuento con dos referencias al texto.",
+        "criteria": "4.1 — Comprender información explícita y realizar inferencias sencillas."
+      },
+      {
+        "title": "Las huellas del relato",
+        "content": "Ordenar acontecimientos y reconocer conectores temporales en una narración.",
+        "mechanic": "Reconstruir cuatro escenas y escoger el fragmento que explica el orden.",
+        "evidence": "Secuencia ordenada con una justificación escrita breve.",
+        "criteria": "4.1 — Identificar relaciones entre las partes de un texto."
+      },
+      {
+        "title": "Un final para Sira",
+        "content": "Crear un desenlace coherente con los personajes y el problema del cuento.",
+        "mechanic": "Elegir un plan y escribir un final propio a partir de dos modelos.",
+        "evidence": "Desenlace de tres o cuatro frases vinculado al inicio.",
+        "criteria": "8.2 — Producir un texto de intención literaria a partir de modelos."
+      },
+      {
+        "title": "El retrato de Plumi",
+        "content": "Distinguir sustantivos y adjetivos por su función en descripciones breves.",
+        "mechanic": "Cambiar palabras de un retrato y comparar qué información añade cada cambio.",
+        "evidence": "Dos versiones comentadas de una descripción.",
+        "criteria": "9.1 — Formular conclusiones sencillas sobre palabras mediante comparación y transformación."
+      },
+      {
+        "title": "El personaje que nadie confunde",
+        "content": "Planificar y escribir una descripción con rasgos ordenados y vocabulario preciso.",
+        "mechanic": "Preparar una ficha de pistas para que otra persona identifique al personaje.",
+        "evidence": "Descripción propia revisada con tres comprobaciones.",
+        "criteria": "5.1 — Producir textos sencillos con planificación y revisión acompañadas."
+      },
+      {
+        "title": "La oración reparada",
+        "content": "Revisar mayúscula inicial, punto y concordancias sencillas en un texto propio.",
+        "mechanic": "Comparar una versión inicial con alternativas y aplicar mejoras justificadas.",
+        "evidence": "Texto antes y después de la revisión con dos cambios señalados.",
+        "criteria": "9.1 y 5.1 — Reflexionar sobre el uso de la lengua y revisar la producción."
+      },
+      {
+        "title": "El cartel con mensaje",
+        "content": "Identificar propósito, destinatario y datos relevantes en carteles del aula.",
+        "mechanic": "Relacionar tres carteles originales con necesidades concretas de los personajes.",
+        "evidence": "Elección de cartel apoyada en una información escrita.",
+        "criteria": "4.1 — Comprender textos escritos y multimodales atendiendo a su propósito."
+      },
+      {
+        "title": "Instrucciones para abrir la noria",
+        "content": "Reconocer pasos, orden y verbos de acción en instrucciones sencillas.",
+        "mechanic": "Ejecutar una secuencia con tarjetas y localizar el paso que falta.",
+        "evidence": "Secuencia completada y explicación de la omisión.",
+        "criteria": "4.1 — Comprender información y relaciones de un texto instructivo."
+      },
+      {
+        "title": "El manual del pequeño taller",
+        "content": "Redactar instrucciones claras para una construcción sencilla con materiales seguros.",
+        "mechanic": "Ordenar un plan de tres pasos, escribirlo y comprobarlo con una pareja.",
+        "evidence": "Manual breve corregido tras la prueba de otra persona.",
+        "criteria": "5.1 — Escribir un texto coherente y adecuado a una finalidad."
+      },
+      {
+        "title": "Las rimas de Lumo",
+        "content": "Reconocer recursos sonoros sencillos y crear versos a partir de un modelo.",
+        "mechanic": "Explorar parejas de palabras y componer una estrofa de cuatro versos.",
+        "evidence": "Estrofa original con una decisión creativa explicada.",
+        "criteria": "8.2 — Crear textos literarios sencillos mediante modelos y otros lenguajes."
+      },
+      {
+        "title": "La noticia que sí lo cuenta",
+        "content": "Distinguir qué ocurrió, dónde y quién participó en una noticia breve.",
+        "mechanic": "Construir un panel de datos y rechazar afirmaciones no sustentadas por el texto.",
+        "evidence": "Panel con tres datos y una pista textual.",
+        "criteria": "4.1 — Seleccionar información relevante y realizar inferencias ajustadas al texto."
+      },
+      {
+        "title": "Una entrevista para informar",
+        "content": "Planificar preguntas pertinentes para obtener datos de un hecho del aula.",
+        "mechanic": "Elegir y ordenar preguntas antes de una entrevista breve supervisada.",
+        "evidence": "Guion escrito con tres preguntas y notas de las respuestas.",
+        "criteria": "5.1 — Planificar un texto sencillo según su propósito comunicativo."
+      },
+      {
+        "title": "La gaceta de los descubrimientos",
+        "content": "Escribir un titular y una entrada breve con datos comprobables de las notas preparadas.",
+        "mechanic": "Usar notas de S13 y una plantilla ya preparada para redactar titular y dos frases; la ilustración es opcional.",
+        "evidence": "Titular y entrada breve con un dato comprobado; la maquetación extensa queda para S15 o tiempo docente separado.",
+        "criteria": "5.1 — Producir un texto coherente con planificación, textualización y revisión."
+      },
+      {
+        "title": "La mesa de revisión",
+        "content": "Revisar claridad, repeticiones y puntuación de una noticia mediante comparación.",
+        "mechanic": "Intercambiar una lista de comprobación y mejorar dos fragmentos concretos.",
+        "evidence": "Noticia revisada con dos cambios y su motivo.",
+        "criteria": "9.1 y 5.1 — Reflexionar sobre elecciones lingüísticas para mejorar un texto."
+      },
+      {
+        "title": "La postal del trimestre",
+        "content": "Escribir un mensaje breve con destinatario, idea principal y cierre.",
+        "mechanic": "En ocho minutos, completar una postal y revisar mayúscula y punto.",
+        "evidence": "Postal de dos o tres frases con una comprobación señalada.",
+        "criteria": "5.1 — Producir y revisar un texto breve adecuado al destinatario."
+      }
+    ]
+  },
+  {
+    "slug": "matematicas",
+    "missions": [
+      {
+        "title": "Las cantidades de bienvenida",
+        "content": "Relacionar cantidades, numerales y agrupaciones dentro del rango elegido por el docente.",
+        "mechanic": "En ocho minutos, emparejar tres representaciones y explicar una coincidencia.",
+        "evidence": "Una cantidad representada con objetos y numeral.",
+        "criteria": "6.2 — Explicar representaciones matemáticas sencillas mediante distintos lenguajes."
+      },
+      {
+        "title": "El almacén por posiciones",
+        "content": "Componer y descomponer cantidades según el valor posicional con rango ajustable.",
+        "mechanic": "Preparar pedidos usando bloques de base diez y sus equivalentes digitales.",
+        "evidence": "Dos descomposiciones de una misma cantidad.",
+        "criteria": "6.2 — Explicar una representación y el procedimiento utilizado."
+      },
+      {
+        "title": "Las rutas de la recta",
+        "content": "Comparar, ordenar y situar números usando referencias en una recta.",
+        "mechanic": "Elegir posiciones y justificar qué referencia ayuda a decidir.",
+        "evidence": "Recta con tres números situados y una comparación explicada.",
+        "criteria": "6.2 — Comunicar relaciones numéricas con apoyo gráfico."
+      },
+      {
+        "title": "El pedido estimado",
+        "content": "Estimar y resolver una suma contextualizada mediante estrategias personales.",
+        "mechanic": "Anticipar una cantidad aproximada y contrastarla con objetos o cálculo.",
+        "evidence": "Estimación inicial, solución y explicación de una diferencia.",
+        "criteria": "2.2 y 2.3 — Resolver un problema y comprobar la coherencia del resultado."
+      },
+      {
+        "title": "La caja del cambio",
+        "content": "Interpretar y resolver restas de diferencia y cambio con cantidades enteras.",
+        "mechanic": "Representar una compra con monedas simuladas y comprobar mediante suma.",
+        "evidence": "Un cambio construido y su comprobación escrita o manipulativa.",
+        "criteria": "1.1, 2.2 y 2.3 — Interpretar la situación, resolverla y comprobarla."
+      },
+      {
+        "title": "El plano de las piezas",
+        "content": "Reconocer propiedades de figuras planas y posiciones mediante una construcción.",
+        "mechanic": "Reproducir un diseño con piezas y describir lados, vértices y ubicación.",
+        "evidence": "Composición física acompañada de dos propiedades y una indicación espacial.",
+        "criteria": "6.2 — Explicar ideas y representaciones matemáticas con vocabulario adecuado.",
+        "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+      },
+      {
+        "title": "El puente que hay que medir",
+        "content": "Elegir una unidad de longitud y estimar antes de medir un objeto próximo.",
+        "mechanic": "Comparar dos estimaciones y comprobarlas con una regla o unidad acordada.",
+        "evidence": "Registro de estimación, medida y unidad utilizada.",
+        "criteria": "2.2 y 2.3 — Resolver una situación de medida y comprobar su resultado.",
+        "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+      },
+      {
+        "title": "Las bandejas iguales",
+        "content": "Interpretar la multiplicación como grupos iguales y suma repetida.",
+        "mechanic": "Distribuir objetos en bandejas y relacionar dibujo, suma y multiplicación.",
+        "evidence": "Una agrupación real con dos representaciones equivalentes.",
+        "criteria": "1.1 y 6.2 — Interpretar una situación y explicar su representación."
+      },
+      {
+        "title": "Las filas de la feria",
+        "content": "Construir disposiciones rectangulares y reconocer productos equivalentes al girarlas.",
+        "mechanic": "Girar una colección rectangular y comparar filas, columnas y total.",
+        "evidence": "Dos dibujos de la misma colección con una explicación.",
+        "criteria": "6.2 — Comunicar relaciones matemáticas a partir de representaciones."
+      },
+      {
+        "title": "El reparto de los materiales",
+        "content": "Resolver repartos iguales sencillos con objetos sin exigir algoritmo de división.",
+        "mechanic": "Repartir una colección y comprobar que todos los grupos reciben lo mismo.",
+        "evidence": "Reparto construido y comprobación mediante agrupación o suma.",
+        "criteria": "2.2 y 2.3 — Resolver y comprobar un problema con una estrategia concreta.",
+        "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+      },
+      {
+        "title": "La balanza del taller",
+        "content": "Comparar masas y elegir unidades o instrumentos adecuados para una situación.",
+        "mechanic": "Predecir comparaciones y comprobarlas con una balanza escolar.",
+        "evidence": "Tres comparaciones registradas y una elección de instrumento justificada.",
+        "criteria": "2.2 y 2.3 — Resolver una situación de medida y contrastar la solución.",
+        "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+      },
+      {
+        "title": "El horario de los personajes",
+        "content": "Interpretar horarios sencillos y resolver duraciones con referencias ya trabajadas.",
+        "mechanic": "Organizar dos actividades en una línea temporal y comprobar su duración.",
+        "evidence": "Horario propio con una duración explicada mediante un reloj de apoyo.",
+        "criteria": "1.1 y 2.2 — Interpretar datos temporales y resolver una situación cotidiana.",
+        "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+      },
+      {
+        "title": "El gráfico de los colores",
+        "content": "Interpretar frecuencias y comparaciones en un gráfico de barras sencillo.",
+        "mechanic": "Construir el gráfico de una colección de fichas y responder preguntas sobre él.",
+        "evidence": "Gráfico con rótulos y una comparación sustentada en los datos.",
+        "criteria": "1.1 y 6.2 — Interpretar información y comunicar relaciones matemáticas.",
+        "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+      },
+      {
+        "title": "El mercado de dos decisiones",
+        "content": "Resolver un problema de dos pasos con sumas o restas y precios enteros.",
+        "mechanic": "Elegir datos, representar los pasos y decidir si sobra o falta dinero.",
+        "evidence": "Plan de resolución y comprobación contextual del resultado.",
+        "criteria": "1.1, 2.2 y 2.3 — Interpretar, resolver y comprobar una situación."
+      },
+      {
+        "title": "El reto de las dos estrategias",
+        "content": "Comparar dos procedimientos válidos para un problema de agrupación o medida.",
+        "mechanic": "Resolver con dos representaciones y explicar cuál ayuda más en ese caso.",
+        "evidence": "Dos soluciones equivalentes con una explicación del proceso.",
+        "criteria": "2.3 y 6.2 — Comprobar la solución y comunicar procedimientos."
+      },
+      {
+        "title": "La prueba de una solución",
+        "content": "Comprobar un cálculo breve mediante objetos, dibujo u operación relacionada.",
+        "mechanic": "En ocho minutos, revisar una solución de Nori y justificar si es coherente.",
+        "evidence": "Una comprobación concreta y una frase o dibujo explicativo.",
+        "criteria": "2.3 — Demostrar la corrección y coherencia de una solución contextualizada."
+      }
+    ]
+  },
+  {
+    "slug": "profundizacion",
+    "missions": [
+      {
+        "title": "La pregunta de partida",
+        "content": "Distinguir una pregunta investigable sobre el aula de otra demasiado imprecisa.",
+        "mechanic": "En ocho minutos, elegir una pregunta y proponer una forma de observarla.",
+        "evidence": "Pregunta compartida con una acción posible para investigarla.",
+        "criteria": "1.6 — Iniciar la planificación de una investigación o proyecto sencillo."
+      },
+      {
+        "title": "El camino con condiciones",
+        "content": "Anticipar movimientos y comprobar restricciones en un reto de estrategia.",
+        "mechanic": "Resolver un recorrido de tarjetas con dos condiciones y comparar intentos.",
+        "evidence": "Plan de movimientos y explicación de un cambio de estrategia.",
+        "criteria": "1.2 — Aplicar estrategias en situaciones y retos lúdicos."
+      },
+      {
+        "title": "El plan de los exploradores",
+        "content": "Organizar una indagación sobre el uso de materiales del aula sin identificar personas.",
+        "mechanic": "Construir un plan con pregunta, observación, materiales y reparto de tareas.",
+        "evidence": "Plan de equipo con pasos y responsabilidades concretas.",
+        "criteria": "1.6 — Planificar las acciones de un proyecto sencillo."
+      },
+      {
+        "title": "La observación que se puede repetir",
+        "content": "Registrar observaciones comparables usando categorías y momentos acordados.",
+        "mechanic": "Ensayar un registro con escenas ficticias antes de observar materiales reales.",
+        "evidence": "Registro del equipo y una explicación de qué se ha observado.",
+        "criteria": "1.6 — Desarrollar una indagación siguiendo una planificación acordada."
+      },
+      {
+        "title": "Las pistas que responden",
+        "content": "Seleccionar información pertinente para responder la pregunta inicial.",
+        "mechanic": "Clasificar tarjetas del registro en pertinentes, insuficientes o ajenas a la pregunta.",
+        "evidence": "Selección razonada de dos observaciones relevantes.",
+        "criteria": "1.6 — Relacionar la información obtenida con el objetivo del proyecto."
+      },
+      {
+        "title": "Lo que descubrimos y lo que falta",
+        "content": "Comunicar un hallazgo sencillo y reconocer una limitación de la observación.",
+        "mechanic": "Preparar un panel con pregunta, evidencia, conclusión provisional y duda pendiente.",
+        "evidence": "Presentación del equipo con una conclusión y una limitación explícitas.",
+        "criteria": "2.2 — Presentar de forma comprensible los resultados de un trabajo."
+      },
+      {
+        "title": "La tarjeta con autoría",
+        "content": "Localizar autoría, fecha y procedencia en recursos digitales preparados por el docente.",
+        "mechanic": "Explorar tres fichas locales y marcar qué datos ayudan a identificar su origen.",
+        "evidence": "Ficha de procedencia completada para un recurso seleccionado.",
+        "criteria": "3.1 — Utilizar recursos digitales de manera guiada para tratar información."
+      },
+      {
+        "title": "Dos fuentes y una duda",
+        "content": "Comparar información de dos recursos preparados sin asumir que coincidir prueba su verdad.",
+        "mechanic": "Construir un panel de coincidencias, diferencias y comprobaciones pendientes.",
+        "evidence": "Comparación documentada con una comprobación adicional propuesta.",
+        "criteria": "3.1 — Tratar información digital de forma guiada y responsable."
+      },
+      {
+        "title": "El prototipo de las ideas",
+        "content": "Elegir una necesidad observable del aula y comparar dos propuestas de mejora.",
+        "mechanic": "Valorar alternativas con tarjetas de utilidad, viabilidad y materiales disponibles.",
+        "evidence": "Problema definido y propuesta elegida con una razón.",
+        "criteria": "1.6 — Planificar un proyecto a partir de una necesidad concreta."
+      },
+      {
+        "title": "El tablero de los tres pasos",
+        "content": "Descomponer el prototipo elegido en tareas y ordenar sus dependencias.",
+        "mechanic": "Organizar un tablero con materiales, tres fases y roles rotatorios.",
+        "evidence": "Plan de construcción con una secuencia y responsabilidades acordadas.",
+        "criteria": "1.6 — Organizar y secuenciar las acciones de un proyecto."
+      },
+      {
+        "title": "El taller del primer intento",
+        "content": "Construir un prototipo sencillo siguiendo un plan y registrar una decisión.",
+        "mechanic": "Alternar tarjetas de instrucción con construcción física supervisada.",
+        "evidence": "Primer prototipo y nota de una decisión tomada durante su elaboración.",
+        "criteria": "1.6 — Ejecutar acciones planificadas y registrar decisiones del proyecto."
+      },
+      {
+        "title": "La prueba con propósito",
+        "content": "Diseñar una prueba que permita comprobar si el prototipo responde a su necesidad.",
+        "mechanic": "Elegir un indicador observable y ensayar dos usos en condiciones similares.",
+        "evidence": "Plan de prueba y registro de dos resultados.",
+        "criteria": "1.6 — Planificar y realizar comprobaciones dentro de un proyecto."
+      },
+      {
+        "title": "El cambio que tiene una razón",
+        "content": "Revisar un elemento del prototipo a partir de los resultados de la prueba.",
+        "mechanic": "Comparar antes y después y seleccionar un cambio relacionado con una evidencia.",
+        "evidence": "Prototipo revisado con una razón sustentada en el registro.",
+        "criteria": "1.6 — Revisar las acciones del proyecto a partir de sus resultados."
+      },
+      {
+        "title": "La ficha digital del invento",
+        "content": "Organizar texto e imagen propios para explicar propósito, materiales y funcionamiento.",
+        "mechanic": "Completar una ficha digital local con plantilla y sin datos personales.",
+        "evidence": "Ficha guardada con contenido propio y fuente de cualquier recurso ajeno.",
+        "criteria": "3.1 — Utilizar herramientas digitales de forma guiada y responsable."
+      },
+      {
+        "title": "La demostración de la mejora",
+        "content": "Presentar una solución y relacionar sus decisiones con la necesidad inicial.",
+        "mechanic": "Preparar una demostración breve con apoyo del prototipo y la ficha.",
+        "evidence": "Presentación con propósito, funcionamiento y una mejora comprobada.",
+        "criteria": "2.2 — Comunicar el proceso y el resultado de un proyecto."
+      },
+      {
+        "title": "La siguiente pregunta",
+        "content": "Reconocer qué queda por comprobar después de una primera solución.",
+        "mechanic": "En ocho minutos, elegir una mejora pendiente y proponer una prueba sencilla.",
+        "evidence": "Una pregunta de continuidad acompañada de una acción verificable.",
+        "criteria": "1.6 — Proponer el siguiente paso de un proyecto a partir de sus resultados."
+      }
+    ]
+  },
+  {
+    "slug": "atencion-educativa",
+    "missions": [
+      {
+        "title": "La puerta de las bienvenidas",
+        "content": "Reconocer una forma de acoger a alguien que llega a un grupo.",
+        "mechanic": "En ocho minutos, comparar dos escenas ficticias y ensayar una bienvenida.",
+        "evidence": "Gesto, frase o apoyo visual de acogida explicado por el grupo.",
+        "criteria": "Objetivo transversal: proponer una acción concreta de acogida y pertenencia."
+      },
+      {
+        "title": "Muchas formas de participar",
+        "content": "Reconocer que una actividad compartida admite participación oral, visual, gestual o con apoyo.",
+        "mechanic": "Adaptar una escena ficticia para que todos los personajes puedan intervenir.",
+        "evidence": "Escena modificada con dos formas válidas de participación.",
+        "criteria": "Objetivo transversal: ofrecer alternativas de participación inclusiva."
+      },
+      {
+        "title": "La consigna que se entiende",
+        "content": "Ayudar a otra persona a comprender una actividad sin sustituir sus decisiones.",
+        "mechanic": "Probar una demostración, un dibujo y una explicación breve en parejas.",
+        "evidence": "Recurso de ayuda elegido y explicación de su utilidad.",
+        "criteria": "Objetivo transversal: prestar una ayuda comprensible que respete la autonomía."
+      },
+      {
+        "title": "El turno que también escucha",
+        "content": "Escuchar una propuesta ajena y recuperar su idea antes de responder.",
+        "mechanic": "Usar tarjetas de turno para construir un acuerdo entre personajes.",
+        "evidence": "Reformulación respetuosa de una propuesta y respuesta relacionada.",
+        "criteria": "Objetivo transversal: escuchar e incorporar aportaciones de otras personas."
+      },
+      {
+        "title": "El acuerdo de bienvenida",
+        "content": "Seleccionar acciones de acogida realizables y repartir su cuidado.",
+        "mechanic": "Crear un acuerdo visual con tres acciones y comprobarlo mediante una escena.",
+        "evidence": "Acuerdo de grupo con una responsabilidad asumida por cada participante.",
+        "criteria": "Objetivo transversal: construir y aplicar un acuerdo inclusivo compartido."
+      },
+      {
+        "title": "Las necesidades tras la escena",
+        "content": "Reconocer posibles emociones y necesidades en una situación ficticia sin atribuirlas como certezas.",
+        "mechanic": "Elegir varias interpretaciones posibles y formular una pregunta respetuosa.",
+        "evidence": "Dos interpretaciones y una pregunta que evita dar por hecho lo que siente otro.",
+        "criteria": "Objetivo transversal: considerar perspectivas diferentes sin exigir revelaciones personales."
+      },
+      {
+        "title": "La pausa que ayuda",
+        "content": "Identificar acciones para recuperar la calma antes de responder a un desacuerdo.",
+        "mechanic": "Ensayar pausas, pedir ayuda o tomar distancia mediante escenas con personajes.",
+        "evidence": "Estrategia representada y explicación de cuándo podría ayudar.",
+        "criteria": "Objetivo transversal: seleccionar una estrategia respetuosa de autorregulación."
+      },
+      {
+        "title": "El material que queremos dos",
+        "content": "Comparar acuerdos de turnos, uso compartido y alternativas en un conflicto cotidiano.",
+        "mechanic": "Explorar consecuencias de tres decisiones y construir otra propuesta posible.",
+        "evidence": "Acuerdo dramatizado que atiende a las dos partes.",
+        "criteria": "Objetivo transversal: proponer soluciones dialogadas que respeten a quienes participan."
+      },
+      {
+        "title": "La palabra que repara",
+        "content": "Diferenciar una disculpa de una acción concreta para reparar un daño ficticio.",
+        "mechanic": "Relacionar situaciones con reparaciones posibles y justificar una elección.",
+        "evidence": "Propuesta de reparación practicable y vinculada al daño.",
+        "criteria": "Objetivo transversal: asumir una responsabilidad y plantear una reparación adecuada."
+      },
+      {
+        "title": "Un desacuerdo sin etiquetas",
+        "content": "Expresar lo ocurrido y una petición sin insultos ni juicios sobre la persona.",
+        "mechanic": "Transformar mensajes de personajes en descripciones y peticiones respetuosas.",
+        "evidence": "Mensaje reformulado y ensayo de respuesta dialogada.",
+        "criteria": "Objetivo transversal: comunicar desacuerdos con respeto y una petición concreta."
+      },
+      {
+        "title": "El rincón que es de todos",
+        "content": "Reconocer una necesidad de cuidado en un espacio o material compartido.",
+        "mechanic": "Observar un espacio del aula y elegir una necesidad abordable por el grupo.",
+        "evidence": "Necesidad descrita y razón de su importancia para otras personas.",
+        "criteria": "Objetivo transversal: identificar responsabilidades vinculadas al bien común."
+      },
+      {
+        "title": "Las tareas que se reparten",
+        "content": "Distribuir responsabilidades considerando tiempos, apoyos y preferencias sin fijar estereotipos.",
+        "mechanic": "Organizar un tablero rotatorio de tareas con opciones equivalentes de colaboración.",
+        "evidence": "Plan compartido con tareas realizables y apoyos acordados.",
+        "criteria": "Objetivo transversal: repartir responsabilidades de forma equitativa y accesible."
+      },
+      {
+        "title": "La acción que deja huella",
+        "content": "Realizar una pequeña mejora acordada de cuidado o convivencia del aula.",
+        "mechanic": "Consultar un recordatorio visual y llevar a cabo la acción en el espacio real.",
+        "evidence": "Observación docente de la contribución de cada participante y resultado colectivo.",
+        "criteria": "Objetivo transversal: cumplir una responsabilidad en una acción de cuidado compartido."
+      },
+      {
+        "title": "¿Mejoró para todos?",
+        "content": "Comprobar el efecto de una acción escuchando a quienes utilizan el espacio.",
+        "mechanic": "Comparar la situación inicial y la actual con tarjetas de observación y opiniones voluntarias.",
+        "evidence": "Una mejora observada y una necesidad que todavía queda por atender.",
+        "criteria": "Objetivo transversal: valorar los efectos de una decisión desde distintas perspectivas."
+      },
+      {
+        "title": "El acuerdo que revisamos",
+        "content": "Modificar un acuerdo cuando sus efectos no permiten participar a todas las personas.",
+        "mechanic": "Revisar una situación ficticia o del proyecto y probar una alternativa inclusiva.",
+        "evidence": "Acuerdo antes y después con una razón ligada a la participación.",
+        "criteria": "Objetivo transversal: revisar acuerdos para mejorar la convivencia y la inclusión."
+      },
+      {
+        "title": "El compromiso pequeño y posible",
+        "content": "Elegir una acción concreta de cuidado que pueda mantenerse al volver al aula.",
+        "mechanic": "En ocho minutos, escoger una acción y señalar cuándo y cómo realizarla.",
+        "evidence": "Compromiso voluntario con una conducta observable y un apoyo previsto.",
+        "criteria": "Objetivo transversal: concretar una responsabilidad realizable y respetuosa."
+      }
+    ]
+  }
+]
+

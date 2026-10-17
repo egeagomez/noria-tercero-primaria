@@ -1,0 +1,2043 @@
+{
+  "slug": "matematicas",
+  "title": "Matemáticas",
+  "description": "Construye, calcula y explica. Dieciséis semanas para descubrir diferentes caminos.",
+  "missions": [
+    {
+      "id": "MAT-T1-S01",
+      "week": 1,
+      "title": "Las cantidades de bienvenida",
+      "goal": "Relacionar cantidades, numerales y agrupaciones dentro del rango elegido por el docente.",
+      "intro": "Sira ha mezclado los carteles del almacén. Ayúdale a reconocer las cantidades.",
+      "guide": "nori",
+      "criteria": [
+        "6.2"
+      ],
+      "duration": "5–8 minutos",
+      "tasks": [
+        {
+          "type": "number",
+          "prompt": "Hay 2 decenas y 4 unidades. ¿Cuántas fichas hay?",
+          "answer": 24,
+          "hint": "Una decena contiene diez unidades.",
+          "explanation": "20 + 4 = 24.",
+          "visual": {
+            "kind": "blocks",
+            "value": 24
+          },
+          "unit": "fichas"
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada cantidad con su representación.",
+          "pairs": [
+            [
+              "Una decena",
+              "10"
+            ],
+            [
+              "Dos decenas",
+              "20"
+            ],
+            [
+              "Tres decenas",
+              "30"
+            ]
+          ],
+          "hint": "Cuenta de diez en diez.",
+          "explanation": "Una, dos y tres decenas son 10, 20 y 30."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué representa la misma cantidad que 12?",
+          "options": [
+            "Una decena y dos unidades",
+            "Dos decenas y una unidad",
+            "Una decena y diez unidades"
+          ],
+          "answer": 0,
+          "hint": "Separa el diez del resto.",
+          "explanation": "12 = 10 + 2."
+        }
+      ],
+      "project": {
+        "title": "Una cantidad, dos formas",
+        "prompt": "Representa 14 con objetos y escríbelo con un dibujo o una frase.",
+        "model": "14: una decena y cuatro unidades.",
+        "checklist": [
+          "He mostrado una cantidad.",
+          "Mi dibujo y mi número coinciden.",
+          "He explicado una coincidencia."
+        ],
+        "extension": "Encuentra otra forma de agrupar 14.",
+        "teacherNotes": "Observar si relaciona cantidad, agrupación y numeral."
+      }
+    },
+    {
+      "id": "MAT-T1-S02",
+      "week": 2,
+      "title": "El almacén por posiciones",
+      "goal": "Componer y descomponer cantidades según el valor posicional con rango ajustable.",
+      "intro": "Nori organiza un almacén con unidades, decenas y centenas. Puedes construir y cambiar tus números.",
+      "guide": "sira",
+      "criteria": [
+        "6.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "builder",
+          "prompt": "Construye 243 con centenas, decenas y unidades.",
+          "mode": "placeValue",
+          "answer": {
+            "hundreds": 2,
+            "tens": 4,
+            "ones": 3
+          },
+          "hint": "Empieza por las centenas.",
+          "explanation": "243 = 200 + 40 + 3.",
+          "config": {
+            "places": 3
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "¿Cuántas decenas tiene la parte de las decenas en 352?",
+          "answer": 5,
+          "hint": "Mira la cifra del centro.",
+          "explanation": "En 352, el 5 representa cinco decenas."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué descomposición corresponde a 408?",
+          "options": [
+            "400 + 8",
+            "40 + 8",
+            "400 + 80"
+          ],
+          "answer": 0,
+          "hint": "El cero indica que no hay decenas en la escritura habitual.",
+          "explanation": "408 = 400 + 0 + 8."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada cifra con su valor en 671.",
+          "pairs": [
+            [
+              "6",
+              "600"
+            ],
+            [
+              "7",
+              "70"
+            ],
+            [
+              "1",
+              "1"
+            ]
+          ],
+          "hint": "La posición cambia el valor.",
+          "explanation": "6 centenas, 7 decenas y 1 unidad."
+        },
+        {
+          "type": "builder",
+          "prompt": "Construye 106 con bloques.",
+          "mode": "placeValue",
+          "answer": {
+            "hundreds": 1,
+            "tens": 0,
+            "ones": 6
+          },
+          "hint": "No necesitas decenas.",
+          "explanation": "106 = 100 + 6.",
+          "config": {
+            "places": 3
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "Si cambias 1 centena por decenas, ¿cuántas decenas recibes?",
+          "answer": 10,
+          "hint": "Una centena contiene cien unidades.",
+          "explanation": "Diez decenas equivalen a una centena.",
+          "unit": "decenas"
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "builder",
+          "prompt": "Construye 24.",
+          "mode": "placeValue",
+          "answer": {
+            "tens": 2,
+            "ones": 4
+          },
+          "hint": "Usa dos decenas y cuatro unidades.",
+          "explanation": "24 = 20 + 4.",
+          "config": {
+            "places": 2
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "Dos decenas y tres unidades forman…",
+          "answer": 23,
+          "hint": "20 + 3.",
+          "explanation": "20 + 3 = 23.",
+          "visual": {
+            "kind": "blocks",
+            "value": 23
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué vale el 4 en 42?",
+          "options": [
+            "4",
+            "40",
+            "400"
+          ],
+          "answer": 1,
+          "hint": "Está en la posición de las decenas.",
+          "explanation": "Cuatro decenas son 40."
+        }
+      ],
+      "project": {
+        "title": "Dos representaciones",
+        "prompt": "Muestra 132 de dos maneras con objetos, dibujos o palabras.",
+        "model": "132 = 100 + 30 + 2. También puedo mostrar 13 decenas y 2 unidades.",
+        "checklist": [
+          "Las dos formas representan lo mismo.",
+          "He nombrado unidades o decenas.",
+          "He comprobado la cantidad."
+        ],
+        "extension": "Explica un cambio de centenas a decenas.",
+        "teacherNotes": "Valorar equivalencias y explicación, no rapidez al mover bloques."
+      }
+    },
+    {
+      "id": "MAT-T1-S03",
+      "week": 3,
+      "title": "Las rutas de la recta",
+      "goal": "Comparar, ordenar y situar números usando referencias en una recta.",
+      "intro": "Plumi prepara rutas numéricas. Las referencias te ayudarán a encontrar cada posición.",
+      "guide": "plumi",
+      "criteria": [
+        "6.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "order",
+          "prompt": "Ordena de menor a mayor.",
+          "items": [
+            "145",
+            "154",
+            "415",
+            "451"
+          ],
+          "hint": "Compara primero centenas y luego decenas.",
+          "explanation": "145 < 154 < 415 < 451."
+        },
+        {
+          "type": "number",
+          "prompt": "La marca está entre 20 y 40, justo a la mitad. ¿Qué número señala?",
+          "answer": 30,
+          "hint": "Cuenta diez más desde 20.",
+          "explanation": "30 está a la misma distancia de 20 y de 40.",
+          "visual": {
+            "kind": "numberline",
+            "start": 0,
+            "end": 60,
+            "point": 30,
+            "step": 10
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué número está más cerca de 200?",
+          "options": [
+            "198",
+            "180",
+            "230"
+          ],
+          "answer": 0,
+          "hint": "Compara cuánto falta o sobra.",
+          "explanation": "A 198 le faltan 2; las otras distancias son mayores."
+        },
+        {
+          "type": "number",
+          "prompt": "Completa: 125, 135, 145, …",
+          "answer": 155,
+          "hint": "Se suma diez cada vez.",
+          "explanation": "145 + 10 = 155."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué comparación es verdadera?",
+          "options": [
+            "307 > 370",
+            "307 < 370",
+            "307 = 370"
+          ],
+          "answer": 1,
+          "hint": "Las centenas coinciden; mira las decenas.",
+          "explanation": "0 decenas es menos que 7 decenas."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena estas referencias.",
+          "items": [
+            "0",
+            "25",
+            "50",
+            "75",
+            "100"
+          ],
+          "hint": "Son saltos iguales de veinticinco.",
+          "explanation": "Las referencias ayudan a situar números."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "order",
+          "prompt": "Ordena estas cantidades.",
+          "items": [
+            "12",
+            "21",
+            "30"
+          ],
+          "hint": "Compara las decenas.",
+          "explanation": "12 < 21 < 30."
+        },
+        {
+          "type": "number",
+          "prompt": "Completa: 10, 20, …",
+          "answer": 30,
+          "hint": "Suma diez.",
+          "explanation": "20 + 10 = 30."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Cuál es mayor?",
+          "options": [
+            "24",
+            "42",
+            "12"
+          ],
+          "answer": 1,
+          "hint": "Compara primero las decenas.",
+          "explanation": "42 tiene cuatro decenas."
+        }
+      ],
+      "project": {
+        "title": "Mi recta con pistas",
+        "prompt": "Dibuja una recta con 100, 150 y 200. Sitúa 125 y explica una referencia.",
+        "model": "125 está entre 100 y 150, a la mitad.",
+        "checklist": [
+          "Las referencias están ordenadas.",
+          "Las distancias son coherentes.",
+          "He explicado una posición."
+        ],
+        "extension": "Sitúa 175 usando otra referencia.",
+        "teacherNotes": "Observar relaciones y referencias, aceptando rangos reducidos."
+      }
+    },
+    {
+      "id": "MAT-T1-S04",
+      "week": 4,
+      "title": "El pedido estimado",
+      "goal": "Estimar y resolver una suma contextualizada mediante estrategias personales.",
+      "intro": "Antes de preparar el pedido, calcula una aproximación. Después comprueba tu idea.",
+      "guide": "lumo",
+      "criteria": [
+        "2.2",
+        "2.3"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "Para estimar 48 + 31, ¿qué cálculo cercano ayuda?",
+          "options": [
+            "50 + 30",
+            "5 + 3",
+            "500 + 300"
+          ],
+          "answer": 0,
+          "hint": "Usa decenas cercanas.",
+          "explanation": "50 + 30 ≈ 80."
+        },
+        {
+          "type": "number",
+          "prompt": "Nori recoge 36 fichas y Sira trae 24. ¿Cuántas hay?",
+          "answer": 60,
+          "hint": "Puedes juntar 30 + 20 y 6 + 4.",
+          "explanation": "36 + 24 = 60.",
+          "unit": "fichas"
+        },
+        {
+          "type": "number",
+          "prompt": "Un pedido tiene 125 semillas y añadimos 32. ¿Cuántas quedan preparadas?",
+          "answer": 157,
+          "hint": "Suma 30 y luego 2.",
+          "explanation": "125 + 32 = 157.",
+          "unit": "semillas"
+        },
+        {
+          "type": "choice",
+          "prompt": "Un resultado es 703 para 42 + 28. ¿Es razonable?",
+          "options": [
+            "Sí, está cerca de 70",
+            "No, debería estar cerca de 70",
+            "No se puede estimar"
+          ],
+          "answer": 1,
+          "hint": "Aproxima a 40 + 30.",
+          "explanation": "42 + 28 = 70; 703 no es coherente."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona sumas que tienen el mismo total.",
+          "pairs": [
+            [
+              "20 + 15",
+              "30 + 5"
+            ],
+            [
+              "40 + 12",
+              "50 + 2"
+            ],
+            [
+              "60 + 18",
+              "70 + 8"
+            ]
+          ],
+          "hint": "Puedes cambiar agrupaciones sin cambiar el total.",
+          "explanation": "Los resultados son 35, 52 y 78."
+        },
+        {
+          "type": "number",
+          "prompt": "Completa: 27 + … = 50.",
+          "answer": 23,
+          "hint": "Cuenta desde 27 hasta 50.",
+          "explanation": "27 + 23 = 50."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "Hay 12 y añadimos 5. ¿Cuántos hay?",
+          "answer": 17,
+          "hint": "Cuenta cinco más.",
+          "explanation": "12 + 5 = 17."
+        },
+        {
+          "type": "number",
+          "prompt": "20 + 10 = …",
+          "answer": 30,
+          "hint": "Son tres decenas.",
+          "explanation": "20 + 10 = 30."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué aproximación ayuda para 19 + 11?",
+          "options": [
+            "20 + 10",
+            "2 + 1",
+            "200 + 100"
+          ],
+          "answer": 0,
+          "hint": "Busca decenas cercanas.",
+          "explanation": "El resultado está cerca de 30."
+        }
+      ],
+      "project": {
+        "title": "Predigo y compruebo",
+        "prompt": "Inventa una suma para preparar un pedido. Estima y después resuélvela.",
+        "model": "Estimo 39 + 22 como 40 + 20 ≈ 60; calculo 61.",
+        "checklist": [
+          "He escrito una estimación.",
+          "He resuelto la suma.",
+          "He comparado los resultados."
+        ],
+        "extension": "Explica por qué no tienen que coincidir exactamente.",
+        "teacherNotes": "Aceptar estrategias personales y observar coherencia de la estimación."
+      }
+    },
+    {
+      "id": "MAT-T1-S05",
+      "week": 5,
+      "title": "La caja del cambio",
+      "goal": "Interpretar y resolver restas de diferencia y cambio con cantidades enteras.",
+      "intro": "El mercado usa precios enteros. Comprueba los cambios con monedas dibujadas o reales de juego.",
+      "guide": "nori",
+      "criteria": [
+        "1.1",
+        "2.2",
+        "2.3"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "number",
+          "prompt": "Pagas con 10 euros por un pedido de 6. ¿Cuánto te devuelven?",
+          "answer": 4,
+          "hint": "¿Cuánto falta de 6 a 10?",
+          "explanation": "6 + 4 = 10.",
+          "visual": {
+            "kind": "coins",
+            "values": [
+              2,
+              2,
+              2,
+              2,
+              2
+            ]
+          },
+          "unit": "euros"
+        },
+        {
+          "type": "number",
+          "prompt": "Tenías 35 fichas y entregas 12. ¿Cuántas conservas?",
+          "answer": 23,
+          "hint": "Quita diez y luego dos.",
+          "explanation": "35 − 12 = 23."
+        },
+        {
+          "type": "choice",
+          "prompt": "Para comprobar 50 − 18 = 32, elige…",
+          "options": [
+            "32 + 18 = 50",
+            "50 + 18 = 68",
+            "32 − 18 = 14"
+          ],
+          "answer": 0,
+          "hint": "Vuelve a juntar lo que queda y lo retirado.",
+          "explanation": "32 + 18 = 50 confirma la resta."
+        },
+        {
+          "type": "number",
+          "prompt": "Una cesta tiene 42 piezas y otra 27. ¿Cuántas más tiene la primera?",
+          "answer": 15,
+          "hint": "Busca la diferencia, no el total.",
+          "explanation": "42 − 27 = 15.",
+          "unit": "piezas"
+        },
+        {
+          "type": "number",
+          "prompt": "Un pedido de 23 euros se paga con 50. ¿Cuál es el cambio?",
+          "answer": 27,
+          "hint": "De 23 a 30 van 7; de 30 a 50 van 20.",
+          "explanation": "7 + 20 = 27.",
+          "unit": "euros"
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada resta con su resultado.",
+          "pairs": [
+            [
+              "30 − 8",
+              "22"
+            ],
+            [
+              "40 − 15",
+              "25"
+            ],
+            [
+              "60 − 24",
+              "36"
+            ]
+          ],
+          "hint": "Puedes contar lo que falta hasta el primer número.",
+          "explanation": "22 + 8 = 30; 25 + 15 = 40; 36 + 24 = 60."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "10 − 3 = …",
+          "answer": 7,
+          "hint": "Puedes usar diez objetos.",
+          "explanation": "7 + 3 = 10."
+        },
+        {
+          "type": "number",
+          "prompt": "Pagas 5 por algo que vale 2. ¿Cuánto vuelve?",
+          "answer": 3,
+          "hint": "Cuenta desde dos hasta cinco.",
+          "explanation": "2 + 3 = 5.",
+          "unit": "euros"
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué comprueba 8 − 2 = 6?",
+          "options": [
+            "6 + 2 = 8",
+            "8 + 2 = 10",
+            "6 − 2 = 4"
+          ],
+          "answer": 0,
+          "hint": "Junta lo que queda y lo que quitaste.",
+          "explanation": "6 + 2 = 8."
+        }
+      ],
+      "project": {
+        "title": "Una compra explicada",
+        "prompt": "Construye una compra con precios enteros, pago y cambio. Compruébala.",
+        "model": "Pago 20, cuesta 13 y vuelven 7; 13 + 7 = 20.",
+        "checklist": [
+          "He identificado pago y precio.",
+          "He calculado el cambio.",
+          "He comprobado con una suma."
+        ],
+        "extension": "Representa otra forma de obtener el mismo cambio.",
+        "teacherNotes": "Valorar el sentido del cambio y distinguir total/diferencia."
+      }
+    },
+    {
+      "id": "MAT-T1-S06",
+      "week": 6,
+      "title": "El plano de las piezas",
+      "goal": "Reconocer propiedades de figuras planas y posiciones mediante una construcción.",
+      "intro": "Sira construye un mosaico. Observa propiedades y posiciones de sus piezas.",
+      "guide": "sira",
+      "criteria": [
+        "6.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué figura tiene tres lados?",
+          "options": [
+            "Triángulo",
+            "Cuadrado",
+            "Círculo"
+          ],
+          "answer": 0,
+          "hint": "Cuenta los lados de la imagen.",
+          "explanation": "Un triángulo tiene tres lados.",
+          "visual": {
+            "kind": "shape",
+            "shape": "triangle"
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "¿Cuántos vértices tiene este rectángulo?",
+          "answer": 4,
+          "hint": "Busca las esquinas.",
+          "explanation": "Un rectángulo tiene cuatro vértices.",
+          "visual": {
+            "kind": "shape",
+            "shape": "rectangle"
+          },
+          "unit": "vértices"
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué comparten cuadrado y rectángulo?",
+          "options": [
+            "Tienen cuatro lados y cuatro ángulos rectos",
+            "Todos sus lados siempre son iguales",
+            "Tienen tres vértices"
+          ],
+          "answer": 0,
+          "hint": "Busca una propiedad válida para ambos.",
+          "explanation": "Ambos tienen cuatro lados y ángulos rectos."
+        },
+        {
+          "type": "match",
+          "prompt": "Une figuras y propiedades.",
+          "pairs": [
+            [
+              "Triángulo",
+              "3 lados"
+            ],
+            [
+              "Cuadrado",
+              "4 lados iguales y ángulos rectos"
+            ],
+            [
+              "Círculo",
+              "Sin lados rectos"
+            ]
+          ],
+          "hint": "Compara las partes de cada figura.",
+          "explanation": "Las propiedades permiten describir figuras."
+        },
+        {
+          "type": "number",
+          "prompt": "Un mosaico tiene 3 filas de 4 cuadrados. ¿Cuántas piezas usa?",
+          "answer": 12,
+          "hint": "Cuenta todas las filas.",
+          "explanation": "4 + 4 + 4 = 12.",
+          "visual": {
+            "kind": "array",
+            "rows": 3,
+            "cols": 4
+          },
+          "unit": "piezas"
+        },
+        {
+          "type": "choice",
+          "prompt": "En el plano, la pieza A está encima de B. ¿Dónde está B respecto de A?",
+          "options": [
+            "Debajo",
+            "Encima",
+            "No cambia la relación"
+          ],
+          "answer": 0,
+          "hint": "Cambia el punto de referencia.",
+          "explanation": "Si A está encima de B, B está debajo de A."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué figura tiene tres lados?",
+          "options": [
+            "Triángulo",
+            "Círculo",
+            "Rectángulo"
+          ],
+          "answer": 0,
+          "hint": "Cuenta tres.",
+          "explanation": "El triángulo tiene tres lados.",
+          "visual": {
+            "kind": "shape",
+            "shape": "triangle"
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "Cuenta los lados del cuadrado.",
+          "answer": 4,
+          "hint": "Recorre su borde.",
+          "explanation": "Tiene cuatro lados.",
+          "visual": {
+            "kind": "shape",
+            "shape": "square"
+          }
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada figura con una pista.",
+          "pairs": [
+            [
+              "Círculo",
+              "Borde curvo"
+            ],
+            [
+              "Triángulo",
+              "Tres esquinas"
+            ]
+          ],
+          "hint": "Observa el borde.",
+          "explanation": "Son propiedades diferentes."
+        }
+      ],
+      "project": {
+        "title": "Un plano con piezas",
+        "prompt": "Construye un diseño con tres figuras. Describe dos propiedades y una posición.",
+        "model": "Uso un triángulo de tres lados encima de un cuadrado de cuatro lados iguales.",
+        "checklist": [
+          "He descrito propiedades.",
+          "He usado una referencia de posición.",
+          "Mi explicación coincide con el diseño."
+        ],
+        "extension": "Da instrucciones para que alguien reproduzca tu diseño.",
+        "teacherNotes": "Bloque propuesto pendiente de cotejo EMAT; observar vocabulario y representación."
+      },
+      "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+    },
+    {
+      "id": "MAT-T1-S07",
+      "week": 7,
+      "title": "El puente que hay que medir",
+      "goal": "Elegir una unidad de longitud y estimar antes de medir un objeto próximo.",
+      "intro": "¿Cuánto mide el puente de Nori? Elige una unidad, estima y después mide.",
+      "guide": "plumi",
+      "criteria": [
+        "2.2",
+        "2.3"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué herramienta ayuda a medir el largo de un lápiz?",
+          "options": [
+            "Regla",
+            "Reloj",
+            "Balanza"
+          ],
+          "answer": 0,
+          "hint": "Buscas longitud.",
+          "explanation": "La regla permite medir longitud."
+        },
+        {
+          "type": "number",
+          "prompt": "La cinta va del 0 al 7. ¿Cuánto mide?",
+          "answer": 7,
+          "hint": "Empieza en cero y mira el extremo.",
+          "explanation": "Del 0 al 7 hay siete centímetros.",
+          "visual": {
+            "kind": "ruler",
+            "value": 7,
+            "max": 10
+          },
+          "unit": "cm"
+        },
+        {
+          "type": "number",
+          "prompt": "Una cuerda mide 12 cm y otra 8 cm. ¿Cuánto más mide la primera?",
+          "answer": 4,
+          "hint": "Compara restando.",
+          "explanation": "12 − 8 = 4.",
+          "unit": "cm"
+        },
+        {
+          "type": "choice",
+          "prompt": "Para medir una mesa, ¿qué debes mantener al repetir una unidad?",
+          "options": [
+            "La misma unidad, sin huecos ni solapamientos",
+            "Unidades distintas",
+            "Huecos grandes"
+          ],
+          "answer": 0,
+          "hint": "La comparación necesita la misma referencia.",
+          "explanation": "Las unidades se colocan de manera continua."
+        },
+        {
+          "type": "number",
+          "prompt": "El objeto empieza en 2 cm y acaba en 9 cm. ¿Cuál es su longitud?",
+          "answer": 7,
+          "hint": "La marca final sola no indica cuánto mide.",
+          "explanation": "9 − 2 = 7.",
+          "unit": "cm"
+        },
+        {
+          "type": "match",
+          "prompt": "Une objeto y unidad razonable.",
+          "pairs": [
+            [
+              "Lápiz",
+              "Centímetros"
+            ],
+            [
+              "Patio",
+              "Metros"
+            ],
+            [
+              "Largo de una hormiga dibujada pequeña",
+              "Milímetros"
+            ]
+          ],
+          "hint": "Piensa en el tamaño y la precisión necesarios.",
+          "explanation": "Se elige la unidad adecuada a cada caso."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué medimos con una regla?",
+          "options": [
+            "Longitud",
+            "Hora",
+            "Masa"
+          ],
+          "answer": 0,
+          "hint": "La regla tiene marcas de distancia.",
+          "explanation": "Se mide longitud."
+        },
+        {
+          "type": "number",
+          "prompt": "Del 0 al 4, ¿cuántos centímetros hay?",
+          "answer": 4,
+          "hint": "Cuenta los espacios.",
+          "explanation": "Hay cuatro centímetros.",
+          "visual": {
+            "kind": "ruler",
+            "value": 4,
+            "max": 8
+          },
+          "unit": "cm"
+        },
+        {
+          "type": "number",
+          "prompt": "¿Cuánto más mide 6 cm que 4 cm?",
+          "answer": 2,
+          "hint": "6 − 4.",
+          "explanation": "La diferencia es 2 cm."
+        }
+      ],
+      "project": {
+        "title": "Mido y comparo",
+        "prompt": "Estima el largo de un objeto. Mídelo y anota unidad e instrumento.",
+        "model": "Estimo 15 cm; con la regla obtengo 14 cm. Mi estimación era cercana.",
+        "checklist": [
+          "He estimado antes.",
+          "He anotado la unidad.",
+          "He comparado estimación y medida."
+        ],
+        "extension": "Explica por qué dos personas podrían obtener medidas distintas.",
+        "teacherNotes": "Bloque pendiente de cotejo; observar alineación de la regla y uso de unidad."
+      },
+      "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+    },
+    {
+      "id": "MAT-T1-S08",
+      "week": 8,
+      "title": "Las bandejas iguales",
+      "goal": "Interpretar la multiplicación como grupos iguales y suma repetida.",
+      "intro": "Las bandejas de Sira tienen grupos iguales. Encuentra distintas formas de mostrar el total.",
+      "guide": "lumo",
+      "criteria": [
+        "1.1",
+        "6.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "builder",
+          "prompt": "Construye 4 bandejas con 3 semillas en cada una.",
+          "mode": "groups",
+          "answer": {
+            "rows": 4,
+            "cols": 3
+          },
+          "hint": "El primer número cuenta bandejas y el segundo semillas por bandeja.",
+          "explanation": "4 grupos de 3 son 12.",
+          "config": {
+            "rowLabel": "Bandejas",
+            "colLabel": "Semillas por bandeja",
+            "max": 8
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "Hay 5 bolsas con 2 botones cada una. ¿Cuántos botones hay?",
+          "answer": 10,
+          "hint": "Suma cinco veces dos.",
+          "explanation": "2 + 2 + 2 + 2 + 2 = 10.",
+          "visual": {
+            "kind": "array",
+            "rows": 5,
+            "cols": 2
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué suma representa 3 grupos de 6?",
+          "options": [
+            "6 + 6 + 6",
+            "3 + 6",
+            "3 + 3 + 3"
+          ],
+          "answer": 0,
+          "hint": "Hay tres grupos, cada uno con seis.",
+          "explanation": "Tres veces seis es 6 + 6 + 6."
+        },
+        {
+          "type": "number",
+          "prompt": "4 grupos de 5 tienen…",
+          "answer": 20,
+          "hint": "Cuenta de cinco en cinco.",
+          "explanation": "5 + 5 + 5 + 5 = 20."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona grupos y total.",
+          "pairs": [
+            [
+              "2 grupos de 4",
+              "8"
+            ],
+            [
+              "3 grupos de 5",
+              "15"
+            ],
+            [
+              "4 grupos de 6",
+              "24"
+            ]
+          ],
+          "hint": "Representa los grupos si lo necesitas.",
+          "explanation": "Los totales son 8, 15 y 24."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué caso tiene grupos iguales?",
+          "options": [
+            "3 cestas con 4 piezas cada una",
+            "Cestas con 3, 4 y 5 piezas",
+            "Una cesta vacía y otra con 8"
+          ],
+          "answer": 0,
+          "hint": "Todos los grupos deben tener la misma cantidad.",
+          "explanation": "En el primer caso cada cesta tiene cuatro."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "builder",
+          "prompt": "Construye 2 grupos de 3.",
+          "mode": "groups",
+          "answer": {
+            "rows": 2,
+            "cols": 3
+          },
+          "hint": "Dos filas de tres.",
+          "explanation": "3 + 3 = 6.",
+          "config": {
+            "max": 5
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "2 + 2 + 2 = …",
+          "answer": 6,
+          "hint": "Cuenta tres grupos de dos.",
+          "explanation": "El total es 6.",
+          "visual": {
+            "kind": "array",
+            "rows": 3,
+            "cols": 2
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué representa dos grupos de cuatro?",
+          "options": [
+            "4 + 4",
+            "2 + 4",
+            "2 + 2"
+          ],
+          "answer": 0,
+          "hint": "Repite cuatro dos veces.",
+          "explanation": "4 + 4 = 8."
+        }
+      ],
+      "project": {
+        "title": "Una agrupación real",
+        "prompt": "Construye grupos iguales y exprésalos con dibujo, suma y multiplicación.",
+        "model": "3 grupos de 4: 4 + 4 + 4 = 12; 3 × 4 = 12.",
+        "checklist": [
+          "Mis grupos son iguales.",
+          "Las representaciones coinciden.",
+          "He explicado qué cuenta cada número."
+        ],
+        "extension": "Muestra el mismo total con otra agrupación.",
+        "teacherNotes": "Valorar estructura de grupos, no memorización por velocidad."
+      }
+    },
+    {
+      "id": "MAT-T1-S09",
+      "week": 9,
+      "title": "Las filas de la feria",
+      "goal": "Construir disposiciones rectangulares y reconocer productos equivalentes al girarlas.",
+      "intro": "Nori gira las filas de la feria. El total puede mantenerse aunque cambie la organización.",
+      "guide": "nori",
+      "criteria": [
+        "6.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "builder",
+          "prompt": "Construye un rectángulo de 3 filas y 4 columnas.",
+          "mode": "groups",
+          "answer": {
+            "rows": 3,
+            "cols": 4
+          },
+          "hint": "Cuenta filas y piezas por fila.",
+          "explanation": "Hay 3 × 4 = 12 piezas.",
+          "config": {
+            "max": 8
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "Si giramos ese rectángulo, habrá 4 filas de 3. ¿Cuál es el total?",
+          "answer": 12,
+          "hint": "Girar no añade ni quita piezas.",
+          "explanation": "4 × 3 = 12.",
+          "visual": {
+            "kind": "array",
+            "rows": 4,
+            "cols": 3
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué pareja tiene el mismo producto?",
+          "options": [
+            "2 × 6 y 6 × 2",
+            "2 × 6 y 6 × 3",
+            "2 × 6 y 2 × 5"
+          ],
+          "answer": 0,
+          "hint": "Intercambiar filas y columnas conserva las piezas.",
+          "explanation": "Ambos productos valen 12."
+        },
+        {
+          "type": "number",
+          "prompt": "Una cuadrícula de 5 filas y 3 columnas contiene…",
+          "answer": 15,
+          "hint": "Cuenta cinco grupos de tres.",
+          "explanation": "5 × 3 = 15.",
+          "visual": {
+            "kind": "array",
+            "rows": 5,
+            "cols": 3
+          }
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada rectángulo con su giro.",
+          "pairs": [
+            [
+              "2 filas de 7",
+              "7 filas de 2"
+            ],
+            [
+              "3 filas de 5",
+              "5 filas de 3"
+            ],
+            [
+              "4 filas de 6",
+              "6 filas de 4"
+            ]
+          ],
+          "hint": "Se intercambia la función de los factores.",
+          "explanation": "El total no cambia al girar."
+        },
+        {
+          "type": "number",
+          "prompt": "¿Cuántas piezas necesitas para 4 filas de 4?",
+          "answer": 16,
+          "hint": "4 + 4 + 4 + 4.",
+          "explanation": "4 × 4 = 16."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "Cuenta 2 filas de 3.",
+          "answer": 6,
+          "hint": "3 + 3.",
+          "explanation": "Hay 6.",
+          "visual": {
+            "kind": "array",
+            "rows": 2,
+            "cols": 3
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "Cuenta 3 filas de 2.",
+          "answer": 6,
+          "hint": "2 + 2 + 2.",
+          "explanation": "También hay 6.",
+          "visual": {
+            "kind": "array",
+            "rows": 3,
+            "cols": 2
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Cambió el total al girar?",
+          "options": [
+            "No",
+            "Sí, siempre aumenta",
+            "Sí, siempre disminuye"
+          ],
+          "answer": 0,
+          "hint": "No quitamos ni añadimos piezas.",
+          "explanation": "La organización cambia, el total se conserva."
+        }
+      ],
+      "project": {
+        "title": "Dos rectángulos, un total",
+        "prompt": "Muestra una colección con filas y columnas. Gírala y explica lo que cambia.",
+        "model": "3 × 5 y 5 × 3 representan 15 piezas.",
+        "checklist": [
+          "He conservado todas las piezas.",
+          "He intercambiado filas y columnas.",
+          "He explicado la igualdad de totales."
+        ],
+        "extension": "Busca dos rectángulos de 24 que no sean solo giros.",
+        "teacherNotes": "Observar representaciones y explicación de equivalencias."
+      }
+    },
+    {
+      "id": "MAT-T1-S10",
+      "week": 10,
+      "title": "El reparto de los materiales",
+      "goal": "Resolver repartos iguales sencillos con objetos sin exigir algoritmo de división.",
+      "intro": "Plumi reparte materiales para que los equipos reciban lo mismo. Puedes usar objetos.",
+      "guide": "sira",
+      "criteria": [
+        "2.2",
+        "2.3"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "number",
+          "prompt": "Reparte 12 lápices entre 3 equipos por igual. ¿Cuántos recibe cada uno?",
+          "answer": 4,
+          "hint": "Entrega uno a cada equipo hasta repartir todos.",
+          "explanation": "3 grupos de 4 hacen 12.",
+          "visual": {
+            "kind": "array",
+            "rows": 3,
+            "cols": 4
+          },
+          "unit": "lápices"
+        },
+        {
+          "type": "number",
+          "prompt": "Hay 20 botones y bolsas para 5 botones. ¿Cuántas bolsas se llenan?",
+          "answer": 4,
+          "hint": "Forma grupos de cinco.",
+          "explanation": "4 grupos de 5 = 20.",
+          "unit": "bolsas"
+        },
+        {
+          "type": "choice",
+          "prompt": "Para comprobar 18 repartidos entre 3 grupos de 6, sirve…",
+          "options": [
+            "6 + 6 + 6 = 18",
+            "18 + 6 = 24",
+            "3 + 6 = 9"
+          ],
+          "answer": 0,
+          "hint": "Junta todos los grupos.",
+          "explanation": "Los tres grupos reúnen 18."
+        },
+        {
+          "type": "number",
+          "prompt": "16 piezas se reparten entre 4 personas. ¿Cuántas recibe cada una?",
+          "answer": 4,
+          "hint": "Busca cuatro grupos iguales.",
+          "explanation": "4 × 4 = 16."
+        },
+        {
+          "type": "number",
+          "prompt": "10 fichas en 2 grupos iguales: cada grupo tiene…",
+          "answer": 5,
+          "hint": "Busca dos cantidades iguales que sumen diez.",
+          "explanation": "5 + 5 = 10."
+        },
+        {
+          "type": "choice",
+          "prompt": "Con 13 piezas, ¿se pueden hacer 3 grupos iguales usando todas?",
+          "options": [
+            "No, con cantidades enteras de piezas",
+            "Sí, 4 cada uno sin sobrantes",
+            "Sí, 5 cada uno"
+          ],
+          "answer": 0,
+          "hint": "Tres grupos de cuatro usan doce.",
+          "explanation": "Sobra una; no se han usado todas por igual."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "6 piezas entre 2 grupos: ¿cuántas por grupo?",
+          "answer": 3,
+          "hint": "3 y 3 forman seis.",
+          "explanation": "Cada grupo recibe 3.",
+          "visual": {
+            "kind": "array",
+            "rows": 2,
+            "cols": 3
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "8 piezas entre 4 grupos: ¿cuántas por grupo?",
+          "answer": 2,
+          "hint": "Reparte una a cada grupo dos veces.",
+          "explanation": "Cada grupo recibe 2."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué reparto es igual?",
+          "options": [
+            "3 y 3",
+            "2 y 4",
+            "1 y 5"
+          ],
+          "answer": 0,
+          "hint": "Los grupos tienen que coincidir.",
+          "explanation": "3 y 3 son iguales."
+        }
+      ],
+      "project": {
+        "title": "Mi reparto comprobado",
+        "prompt": "Reparte 18 objetos entre tres grupos. Dibuja y comprueba el resultado.",
+        "model": "6 + 6 + 6 = 18; cada grupo tiene 6.",
+        "checklist": [
+          "Todos los grupos reciben lo mismo.",
+          "He usado o indicado todas las piezas.",
+          "He comprobado el total."
+        ],
+        "extension": "Explica qué ocurre si añades una pieza más.",
+        "teacherNotes": "Bloque pendiente de cotejo; no exigir algoritmo de división."
+      },
+      "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+    },
+    {
+      "id": "MAT-T1-S11",
+      "week": 11,
+      "title": "La balanza del taller",
+      "goal": "Comparar masas y elegir unidades o instrumentos adecuados para una situación.",
+      "intro": "La balanza del taller ayuda a comparar masas. La pantalla muestra modelos; prueba también con materiales reales.",
+      "guide": "plumi",
+      "criteria": [
+        "2.2",
+        "2.3"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué instrumento sirve para comparar masas?",
+          "options": [
+            "Balanza",
+            "Regla",
+            "Reloj"
+          ],
+          "answer": 0,
+          "hint": "Necesitas comparar cuánta masa tienen los objetos.",
+          "explanation": "La balanza ayuda a comparar masas."
+        },
+        {
+          "type": "number",
+          "prompt": "Una bolsa tiene 200 g y otra 300 g. Juntas tienen…",
+          "answer": 500,
+          "hint": "Suma centenas.",
+          "explanation": "200 + 300 = 500.",
+          "unit": "g"
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué cantidad es mayor?",
+          "options": [
+            "1 kg",
+            "500 g",
+            "100 g"
+          ],
+          "answer": 0,
+          "hint": "1 kg equivale a 1000 g.",
+          "explanation": "1000 g es mayor que 500 g y 100 g."
+        },
+        {
+          "type": "number",
+          "prompt": "¿Cuántos gramos faltan de 750 g a 1 kg?",
+          "answer": 250,
+          "hint": "1 kg son 1000 g.",
+          "explanation": "1000 − 750 = 250.",
+          "unit": "g"
+        },
+        {
+          "type": "match",
+          "prompt": "Elige una unidad razonable.",
+          "pairs": [
+            [
+              "Masa de una goma",
+              "Gramos"
+            ],
+            [
+              "Masa de una mochila",
+              "Kilogramos"
+            ],
+            [
+              "Masa de una semilla pequeña",
+              "Gramos o una unidad menor, según precisión"
+            ]
+          ],
+          "hint": "El tamaño y la precisión orientan la elección.",
+          "explanation": "La unidad se elige según lo que medimos."
+        },
+        {
+          "type": "choice",
+          "prompt": "Dos objetos tienen el mismo tamaño. ¿Tienen necesariamente la misma masa?",
+          "options": [
+            "No",
+            "Sí, siempre",
+            "Solo si son del mismo color"
+          ],
+          "answer": 0,
+          "hint": "Pueden estar hechos de materiales distintos.",
+          "explanation": "El tamaño no determina por sí solo la masa."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué sirve para masa?",
+          "options": [
+            "Balanza",
+            "Regla",
+            "Reloj"
+          ],
+          "answer": 0,
+          "hint": "Mira los platos de la balanza.",
+          "explanation": "La balanza compara masas."
+        },
+        {
+          "type": "number",
+          "prompt": "10 g + 20 g = …",
+          "answer": 30,
+          "hint": "Suma las cantidades con la misma unidad.",
+          "explanation": "El total es 30 g.",
+          "unit": "g"
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué es más masa?",
+          "options": [
+            "30 g",
+            "10 g",
+            "20 g"
+          ],
+          "answer": 0,
+          "hint": "Compara los números, la unidad es la misma.",
+          "explanation": "30 g es la mayor cantidad."
+        }
+      ],
+      "project": {
+        "title": "Antes y después de pesar",
+        "prompt": "Predice qué objeto tiene más masa. Compruébalo con una balanza disponible.",
+        "model": "Pensaba que A tenía más masa; al comparar observo que B tiene más.",
+        "checklist": [
+          "He hecho una predicción.",
+          "He comprobado con un instrumento.",
+          "He explicado el resultado con su unidad si procede."
+        ],
+        "extension": "Busca dos objetos grandes y pequeños que cambien tu predicción.",
+        "teacherNotes": "Bloque pendiente de cotejo; aceptar comparación sin cifra si la balanza no la muestra."
+      },
+      "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+    },
+    {
+      "id": "MAT-T1-S12",
+      "week": 12,
+      "title": "El horario de los personajes",
+      "goal": "Interpretar horarios sencillos y resolver duraciones con referencias ya trabajadas.",
+      "intro": "Los personajes preparan un horario. Los relojes y las líneas temporales ayudan a comprobar duraciones.",
+      "guide": "lumo",
+      "criteria": [
+        "1.1",
+        "2.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "number",
+          "prompt": "¿Qué hora muestra el reloj? Escribe solo la hora.",
+          "answer": 3,
+          "hint": "La aguja corta señala la hora y la larga está en 12.",
+          "explanation": "Son las tres en punto.",
+          "visual": {
+            "kind": "clock",
+            "hour": 3,
+            "minute": 0
+          },
+          "unit": "en punto"
+        },
+        {
+          "type": "number",
+          "prompt": "Una actividad comienza a las 10:00 y acaba a las 10:30. ¿Cuánto dura?",
+          "answer": 30,
+          "hint": "Cuenta los minutos entre ambas horas.",
+          "explanation": "Dura treinta minutos.",
+          "unit": "minutos"
+        },
+        {
+          "type": "number",
+          "prompt": "Empiezas a las 9:15 y trabajas 15 minutos. ¿En qué minuto de las nueve terminas?",
+          "answer": 30,
+          "hint": "15 + 15.",
+          "explanation": "Terminas a las 9:30."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué horario cabe de 11:00 a 11:30?",
+          "options": [
+            "20 minutos y después 10 minutos",
+            "25 minutos y después 20 minutos",
+            "40 minutos seguidos"
+          ],
+          "answer": 0,
+          "hint": "La franja tiene treinta minutos.",
+          "explanation": "20 + 10 = 30."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena las horas de una mañana.",
+          "items": [
+            "9:00",
+            "9:30",
+            "10:00",
+            "10:30"
+          ],
+          "hint": "Avanza en el tiempo.",
+          "explanation": "Cada referencia es media hora después."
+        },
+        {
+          "type": "number",
+          "prompt": "De 8:00 a 9:00 pasan…",
+          "answer": 60,
+          "hint": "Una hora contiene sesenta minutos.",
+          "explanation": "Pasan 60 minutos.",
+          "unit": "minutos"
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "El reloj señala las 2 en punto. ¿Qué hora es?",
+          "answer": 2,
+          "hint": "La aguja corta apunta al dos.",
+          "explanation": "Son las dos.",
+          "visual": {
+            "kind": "clock",
+            "hour": 2,
+            "minute": 0
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "10 minutos y otros 5 suman…",
+          "answer": 15,
+          "hint": "Suma ambas duraciones.",
+          "explanation": "10 + 5 = 15.",
+          "unit": "minutos"
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena.",
+          "items": [
+            "9:00",
+            "10:00",
+            "11:00"
+          ],
+          "hint": "Avanza de una hora a la siguiente.",
+          "explanation": "9:00 viene antes que 10:00 y que 11:00."
+        }
+      ],
+      "project": {
+        "title": "Mi horario posible",
+        "prompt": "Organiza dos actividades dentro de media hora. Explica cómo sabes que caben.",
+        "model": "Leer 10 minutos y dibujar 20: suman 30.",
+        "checklist": [
+          "He indicado inicio o duración.",
+          "Las actividades caben en la franja.",
+          "He explicado la comprobación."
+        ],
+        "extension": "Prueba otro reparto de la misma media hora.",
+        "teacherNotes": "Bloque pendiente de cotejo; usar referencias ya trabajadas y reloj de apoyo."
+      },
+      "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+    },
+    {
+      "id": "MAT-T1-S13",
+      "week": 13,
+      "title": "El gráfico de los colores",
+      "goal": "Interpretar frecuencias y comparaciones en un gráfico de barras sencillo.",
+      "intro": "Lumo organiza datos de una colección. Cada barra debe mostrar la cantidad que indica su etiqueta.",
+      "guide": "nori",
+      "criteria": [
+        "1.1",
+        "6.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "number",
+          "prompt": "¿Cuántas fichas verdes hay?",
+          "answer": 5,
+          "hint": "Lee el número que aparece en la barra de verdes.",
+          "explanation": "La barra de verdes llega a cinco.",
+          "visual": {
+            "kind": "bars",
+            "labels": [
+              "Rojas",
+              "Verdes",
+              "Azules"
+            ],
+            "values": [
+              3,
+              5,
+              2
+            ]
+          },
+          "unit": "fichas"
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Cuál es la categoría más frecuente?",
+          "options": [
+            "Rojas",
+            "Verdes",
+            "Azules"
+          ],
+          "answer": 1,
+          "hint": "Compara las longitudes de las barras.",
+          "explanation": "Verdes tiene cinco, más que tres y dos.",
+          "visual": {
+            "kind": "bars",
+            "labels": [
+              "Rojas",
+              "Verdes",
+              "Azules"
+            ],
+            "values": [
+              3,
+              5,
+              2
+            ]
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "¿Cuántas fichas hay en total?",
+          "answer": 10,
+          "hint": "Suma las tres categorías.",
+          "explanation": "3 + 5 + 2 = 10.",
+          "visual": {
+            "kind": "bars",
+            "labels": [
+              "Rojas",
+              "Verdes",
+              "Azules"
+            ],
+            "values": [
+              3,
+              5,
+              2
+            ]
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "¿Cuántas verdes más que azules hay?",
+          "answer": 3,
+          "hint": "Compara 5 y 2.",
+          "explanation": "5 − 2 = 3.",
+          "visual": {
+            "kind": "bars",
+            "labels": [
+              "Rojas",
+              "Verdes",
+              "Azules"
+            ],
+            "values": [
+              3,
+              5,
+              2
+            ]
+          }
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona categorías con su frecuencia.",
+          "pairs": [
+            [
+              "Semillas",
+              "4"
+            ],
+            [
+              "Hojas",
+              "6"
+            ],
+            [
+              "Piedras",
+              "2"
+            ]
+          ],
+          "hint": "Usa el gráfico, no el tamaño del objeto real.",
+          "explanation": "El gráfico representa 4, 6 y 2.",
+          "visual": {
+            "kind": "bars",
+            "labels": [
+              "Semillas",
+              "Hojas",
+              "Piedras"
+            ],
+            "values": [
+              4,
+              6,
+              2
+            ]
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "Un gráfico no indica qué representa cada barra. ¿Qué le falta?",
+          "options": [
+            "Etiquetas de categorías",
+            "Una decoración",
+            "Un personaje más"
+          ],
+          "answer": 0,
+          "hint": "Necesitamos saber a qué se refiere cada dato.",
+          "explanation": "Las etiquetas dan significado a las barras."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "¿Cuántas fichas muestra la barra A?",
+          "answer": 2,
+          "hint": "Lee la marca final.",
+          "explanation": "Hay dos.",
+          "visual": {
+            "kind": "bars",
+            "labels": [
+              "A",
+              "B"
+            ],
+            "values": [
+              2,
+              4
+            ]
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué categoría tiene más?",
+          "options": [
+            "A",
+            "B",
+            "Son iguales"
+          ],
+          "answer": 1,
+          "hint": "Compara dos y cuatro.",
+          "explanation": "B tiene cuatro.",
+          "visual": {
+            "kind": "bars",
+            "labels": [
+              "A",
+              "B"
+            ],
+            "values": [
+              2,
+              4
+            ]
+          }
+        },
+        {
+          "type": "number",
+          "prompt": "2 y 4 fichas suman…",
+          "answer": 6,
+          "hint": "Suma los grupos.",
+          "explanation": "2 + 4 = 6."
+        }
+      ],
+      "project": {
+        "title": "Mi colección en barras",
+        "prompt": "Cuenta tres tipos de objetos o fichas. Haz un gráfico y escribe una comparación.",
+        "model": "Rojas:4, verdes:2, azules:3. Hay una roja más que azules.",
+        "checklist": [
+          "Las barras coinciden con los datos.",
+          "He puesto etiquetas.",
+          "Mi comparación usa esos datos."
+        ],
+        "extension": "Formula una pregunta cuya respuesta esté en el gráfico.",
+        "teacherNotes": "Bloque pendiente de cotejo; no recoger preferencias personales identificadas."
+      },
+      "alignmentStatus": "Propuesta curricular pendiente de cotejo con EMAT Libro 1 y la programación de T1."
+    },
+    {
+      "id": "MAT-T1-S14",
+      "week": 14,
+      "title": "El mercado de dos decisiones",
+      "goal": "Resolver un problema de dos pasos con sumas o restas y precios enteros.",
+      "intro": "En esta semana breve prepararás un pedido con dos decisiones. Guarda una pista de tu razonamiento.",
+      "guide": "sira",
+      "criteria": [
+        "1.1",
+        "2.2",
+        "2.3"
+      ],
+      "duration": "5–8 minutos",
+      "tasks": [
+        {
+          "type": "number",
+          "prompt": "Compras por 12 euros y después por 5. Pagas con 20. ¿Cuánto te queda?",
+          "answer": 3,
+          "hint": "Primero suma los gastos; después compara con veinte.",
+          "explanation": "12 + 5 = 17; 20 − 17 = 3.",
+          "unit": "euros"
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena un plan para resolver el pedido.",
+          "items": [
+            "Leer los datos y la pregunta",
+            "Calcular el gasto total",
+            "Calcular lo que queda",
+            "Comprobar en el contexto"
+          ],
+          "hint": "Antes de operar, identifica qué se pide.",
+          "explanation": "El plan separa las dos decisiones."
+        },
+        {
+          "type": "choice",
+          "prompt": "Tienes 15 euros y compras por 8 y por 9. ¿Te alcanza?",
+          "options": [
+            "No, faltan 2 euros",
+            "Sí, sobran 2",
+            "Sí, sobran 17"
+          ],
+          "answer": 0,
+          "hint": "8 + 9 = 17.",
+          "explanation": "17 es dos más que quince."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "Compras por 4 y por 3. ¿Cuánto gastas?",
+          "answer": 7,
+          "hint": "Suma ambos precios.",
+          "explanation": "4 + 3 = 7."
+        },
+        {
+          "type": "number",
+          "prompt": "De 10 euros gastas 7. ¿Cuánto queda?",
+          "answer": 3,
+          "hint": "Busca lo que falta para diez.",
+          "explanation": "10 − 7 = 3."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué calculas primero?",
+          "options": [
+            "El gasto total",
+            "Un número que no aparece",
+            "El color de la cesta"
+          ],
+          "answer": 0,
+          "hint": "La pregunta trata de dinero disponible.",
+          "explanation": "Primero sumamos los precios."
+        }
+      ],
+      "project": {
+        "title": "Mi plan en dos pasos",
+        "prompt": "Escribe o dibuja dos pasos para una compra inventada.",
+        "model": "8 + 4 = 12; si pago con 15, vuelven 3.",
+        "checklist": [
+          "He elegido datos útiles.",
+          "He mostrado los dos pasos.",
+          "He comprobado lo que sobra o falta."
+        ],
+        "extension": "Explica qué cambia si aumenta un precio.",
+        "teacherNotes": "Micromisión: permitir una representación breve sin maquetación extensa."
+      }
+    },
+    {
+      "id": "MAT-T1-S15",
+      "week": 15,
+      "title": "El reto de las dos estrategias",
+      "goal": "Comparar dos procedimientos válidos para un problema de agrupación o medida.",
+      "intro": "Puedes resolver un mismo problema de varias maneras. Compara qué te ayuda más a explicarlo.",
+      "guide": "plumi",
+      "criteria": [
+        "2.3",
+        "6.2"
+      ],
+      "duration": "8–12 minutos",
+      "tasks": [
+        {
+          "type": "number",
+          "prompt": "Hay 3 cajas con 8 piezas. ¿Cuántas hay?",
+          "answer": 24,
+          "hint": "Puedes sumar o agrupar.",
+          "explanation": "8 + 8 + 8 = 24.",
+          "visual": {
+            "kind": "array",
+            "rows": 3,
+            "cols": 8
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué procedimiento da el mismo total?",
+          "options": [
+            "3 × 8",
+            "3 + 8",
+            "8 − 3"
+          ],
+          "answer": 0,
+          "hint": "La multiplicación representa grupos iguales.",
+          "explanation": "Tres grupos de ocho son 3 × 8."
+        },
+        {
+          "type": "number",
+          "prompt": "Una cinta de 18 cm se corta en dos partes de 7 y otra parte. ¿Cuánto mide la tercera?",
+          "answer": 4,
+          "hint": "Las dos partes de siete suman catorce.",
+          "explanation": "18 − 14 = 4.",
+          "unit": "cm"
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona problemas con una comprobación.",
+          "pairs": [
+            [
+              "24 piezas en 3 cajas de 8",
+              "8 + 8 + 8 = 24"
+            ],
+            [
+              "18 cm menos 14 cm",
+              "14 + 4 = 18"
+            ],
+            [
+              "30 fichas entre 5 equipos",
+              "6 + 6 + 6 + 6 + 6 = 30"
+            ]
+          ],
+          "hint": "La comprobación recupera el total.",
+          "explanation": "Cada representación debe corresponder al problema."
+        },
+        {
+          "type": "choice",
+          "prompt": "Dos estrategias dan 24, pero una usa un dato inventado. ¿Basta que coincida el número?",
+          "options": [
+            "No: debe explicar los datos del problema",
+            "Sí: cualquier explicación vale",
+            "Solo importa hacerlo rápido"
+          ],
+          "answer": 0,
+          "hint": "Comprueba cómo se llega al resultado.",
+          "explanation": "El procedimiento tiene que ser coherente con la situación."
+        },
+        {
+          "type": "number",
+          "prompt": "5 grupos de 6 suman…",
+          "answer": 30,
+          "hint": "Cuenta de seis en seis o usa grupos.",
+          "explanation": "5 × 6 = 30."
+        }
+      ],
+      "supportTasks": [
+        {
+          "type": "number",
+          "prompt": "2 grupos de 4 son…",
+          "answer": 8,
+          "hint": "4 + 4.",
+          "explanation": "Son ocho.",
+          "visual": {
+            "kind": "array",
+            "rows": 2,
+            "cols": 4
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué otra escritura representa ocho?",
+          "options": [
+            "2 × 4",
+            "2 + 4",
+            "4 − 2"
+          ],
+          "answer": 0,
+          "hint": "Dos grupos de cuatro.",
+          "explanation": "2 × 4 = 8."
+        },
+        {
+          "type": "number",
+          "prompt": "Para comprobar 10 − 3 = 7, calcula 7 + …",
+          "answer": 3,
+          "hint": "Vuelve a recuperar el diez.",
+          "explanation": "7 + 3 = 10."
+        }
+      ],
+      "project": {
+        "title": "Dos caminos, una explicación",
+        "prompt": "Resuelve un problema con un dibujo y con una operación. Explica la relación.",
+        "model": "4 grupos de 5: dibujo cuatro bandejas y escribo 5 + 5 + 5 + 5 = 20.",
+        "checklist": [
+          "Las dos estrategias corresponden al problema.",
+          "He comprobado el total.",
+          "He explicado qué representa cada parte."
+        ],
+        "extension": "Inventa un problema para una de tus representaciones.",
+        "teacherNotes": "Valorar coherencia de las estrategias, no la preferencia por un algoritmo."
+      }
+    },
+    {
+      "id": "MAT-T1-S16",
+      "week": 16,
+      "title": "La prueba de una solución",
+      "goal": "Comprobar un cálculo breve mediante objetos, dibujo u operación relacionada.",
+      "intro": "Nori pide una última comprobación. Basta una buena razón, no hace falta correr.",
+      "guide": "lumo",
+      "criteria": [
+        "2.3"
+      ],
+      "duration": "5–8 minutos",
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "Nori dice: 18 + 7 = 25. ¿Qué lo comprueba?",
+          "options": [
+            "25 − 7 = 18",
+            "25 + 7 = 32",
+            "18 − 7 = 11"
+          ],
+          "answer": 0,
+          "hint": "Usa la operación relacionada.",
+          "explanation": "Si del total quitamos siete, recuperamos dieciocho."
+        },
+        {
+          "type": "number",
+          "prompt": "Hay 3 grupos de 4. Para comprobarlos, calcula 4 + 4 + 4.",
+          "answer": 12,
+          "hint": "Junta todos los grupos.",
+          "explanation": "El total es doce.",
+          "visual": {
+            "kind": "array",
+            "rows": 3,
+            "cols": 4
+          }
+        },
+        {
+          "type": "choice",
+          "prompt": "Obtienes un cambio de 30 euros al pagar 10 por algo de 4. ¿Es coherente?",
+          "options": [
+            "No: el cambio debería ser 6",
+            "Sí: siempre se recibe más de lo pagado",
+            "No se puede comprobar"
+          ],
+          "answer": 0,
+          "hint": "El cambio y el precio deben sumar el pago.",
+          "explanation": "4 + 6 = 10."
+        }
+      ],
+      "project": {
+        "title": "Mi prueba de una solución",
+        "prompt": "Elige un cálculo de hoy y muestra cómo lo compruebas.",
+        "model": "Si 15 − 6 = 9, compruebo que 9 + 6 = 15.",
+        "checklist": [
+          "He elegido una solución.",
+          "He mostrado una comprobación.",
+          "He explicado si es coherente."
+        ],
+        "extension": "Explica qué error detectaría tu comprobación.",
+        "teacherNotes": "Cierre breve: una evidencia concreta, sin prueba por velocidad."
+      }
+    }
+  ]
+}

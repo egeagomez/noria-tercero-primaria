@@ -1,0 +1,821 @@
+[
+  {
+    "slug": "science",
+    "missions": [
+      {
+        "title": "Life Spotters",
+        "content": "Distinguir seres vivos y objetos mediante rasgos observables, sin usar solo el movimiento.",
+        "mechanic": "Clasificar seis escenas de la noria y escoger una pista.",
+        "evidence": "Dos clasificaciones explicadas con imágenes.",
+        "criteria": "5.1"
+      },
+      {
+        "title": "The Three Life Jobs",
+        "content": "Reconocer nutrición, interacción y reproducción en ejemplos próximos.",
+        "mechanic": "Relacionar ocho escenas con funciones vitales y justificar una elección.",
+        "evidence": "Tríptico de ejemplos originales de funciones vitales.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "A Tiny World",
+        "content": "Comprender la célula como modelo básico y distinguir observación de imagen ampliada.",
+        "mechanic": "Explorar dibujos a distintas escalas y marcar qué requiere ayuda óptica.",
+        "evidence": "Dibujo explicado y una pregunta sobre lo que no se ve a simple vista.",
+        "criteria": "2.1,5.1"
+      },
+      {
+        "title": "One Cell or Many?",
+        "content": "Comparar organismos unicelulares y pluricelulares con modelos accesibles.",
+        "mechanic": "Construir modelos con piezas y comparar qué representa cada uno.",
+        "evidence": "Dos modelos etiquetados y explicación de su diferencia.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "The Kingdom Puzzle",
+        "content": "Usar el modelo escolar de cinco reinos de U1 con rasgos proporcionados.",
+        "mechanic": "Agrupar ocho tarjetas con un diagrama de ayuda, sin ampliar taxonomía.",
+        "evidence": "Clasificación razonada de tres ejemplos.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "I Observe, I Predict",
+        "content": "Separar observación, pregunta y predicción en una indagación guiada.",
+        "mechanic": "Elegir preguntas investigables y contrastar una predicción con imágenes/observación real.",
+        "evidence": "Ficha con observación, predicción y comprobación;2.3 solo con experiencia real.",
+        "criteria": "2.1,5.1"
+      },
+      {
+        "title": "Our Living Things Guide",
+        "content": "Comunicar semejanzas y diferencias entre grupos de seres vivos.",
+        "mechanic": "Revisar fichas de una guía y corregir una clasificación usando pistas.",
+        "evidence": "Ficha de guía con dos rasgos y una revisión justificada.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "Backbone Detectives",
+        "content": "Identificar la columna vertebral en representaciones sencillas de animales.",
+        "mechanic": "Superponer esqueletos esquemáticos originales y resolver ocho pistas.",
+        "evidence": "Comparación entre dos animales basada en estructura.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "Mammal Clues",
+        "content": "Reconocer rasgos de mamíferos, incluyendo un ejemplo acuático.",
+        "mechanic": "Resolver expedientes con pistas sobre pelo y alimentación de crías.",
+        "evidence": "Explicar por qué vivir en agua no convierte al delfín en pez.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "Feather Finders",
+        "content": "Relacionar las aves con plumas y distinguir rasgos de desplazamiento.",
+        "mechanic": "Clasificar aves que vuelan y otras que no, evitando usar vuelo como único rasgo.",
+        "evidence": "Tarjeta de ave con dos rasgos y una comparación.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "Fish Underwater",
+        "content": "Reconocer rasgos de peces y su relación con el medio acuático.",
+        "mechanic": "Completar un modelo visual y relacionar rasgos con necesidades.",
+        "evidence": "Dibujo de un pez y explicación apoyada en imágenes.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "Reptile Files",
+        "content": "Comparar reptiles mediante rasgos corporales, sin generalizar que todos ponen huevos.",
+        "mechanic": "Elegir pistas válidas en seis casos y revisar una afirmación demasiado general.",
+        "evidence": "Comparación de dos reptiles usando datos proporcionados.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "The Frog Changes",
+        "content": "Observar cambios del ciclo de vida de una rana como ejemplo de anfibio.",
+        "mechanic": "Ordenar fases y relacionarlas con cambios observables.",
+        "evidence": "Secuencia comentada que no se presenta como idéntica para todos los anfibios.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "Habitat Is Not a Family",
+        "content": "Distinguir hábitat y grupo de vertebrados con ejemplos cruzados.",
+        "mechanic": "Resolver cuatro pares de animales que comparten medio y difieren en grupo.",
+        "evidence": "Justificación de una clasificación a partir de rasgos.",
+        "criteria": "5.1,5.2"
+      },
+      {
+        "title": "Animal Experts Together",
+        "content": "Comparar los cinco grupos de vertebrados y comunicar una conclusión.",
+        "mechanic": "Preparar preguntas y resolver por parejas expedientes con pistas contrastables.",
+        "evidence": "Tabla comparativa y explicación científica con apoyo lingüístico.",
+        "criteria": "2.1,5.1,5.2"
+      },
+      {
+        "title": "Share Our Field Guide",
+        "content": "Revisar y explicar una ficha de vertebrado con evidencias.",
+        "mechanic": "Seleccionar un animal, corregir una pista y presentar su ficha brevemente.",
+        "evidence": "Ficha final con grupo y dos rasgos, más una revisión explicada.",
+        "criteria": "5.1,5.2"
+      }
+    ]
+  },
+  {
+    "slug": "ingles",
+    "missions": [
+      {
+        "title": "Hello, Nori!",
+        "content": "Saludar y presentarse usando identidades ficticias del Starter.",
+        "mechanic": "Escuchar seis saludos y practicar un diálogo con tarjetas de rol.",
+        "evidence": "Intercambio oral de dos turnos observado.",
+        "criteria": "1.1,2.1,3.1"
+      },
+      {
+        "title": "Colours and Clothes",
+        "content": "Describir una prenda y su color con una frase modelo del Starter.",
+        "mechanic": "Elegir vestuario para un personaje y responder a una pista oral.",
+        "evidence": "Descripción breve de una prenda, oral o escrita según objetivo.",
+        "criteria": "1.1,2.1,2.2"
+      },
+      {
+        "title": "The Secret Alphabet",
+        "content": "Deletrear un apodo ficticio y reconocer letras del Starter.",
+        "mechanic": "Reconstruir un nombre inventado tras escuchar sus letras.",
+        "evidence": "Deletreo por parejas y etiqueta legible.",
+        "criteria": "1.1,2.1,2.2,3.1"
+      },
+      {
+        "title": "Number Trail",
+        "content": "Comprender y expresar números del rango de repaso elegido en el Starter.",
+        "mechanic": "Seguir un itinerario de códigos numéricos con audio repetible.",
+        "evidence": "Lectura/escucha de tres códigos y mensaje breve.",
+        "criteria": "1.1,2.1,2.2"
+      },
+      {
+        "title": "Sports in Action",
+        "content": "Reconocer deportes y sus combinaciones verbales de U1.",
+        "mechanic": "Relacionar escenas originales y expresiones como do judo/play badminton.",
+        "evidence": "Selección justificada y dos expresiones producidas.",
+        "criteria": "1.1,2.1"
+      },
+      {
+        "title": "Find the Sports Place",
+        "content": "Comprender lugares deportivos y relacionarlos con actividades de U1.",
+        "mechanic": "Escuchar indicaciones y localizar cuatro lugares en un plano ficticio.",
+        "evidence": "Mini descripción de un lugar y su actividad.",
+        "criteria": "1.1,2.1,2.2"
+      },
+      {
+        "title": "Our Weekly Club",
+        "content": "Expresar actividades con I/we y días de la semana de U1.",
+        "mechanic": "Organizar una agenda ficticia y describir dos actividades.",
+        "evidence": "Dos frases comprensibles sobre el club.",
+        "criteria": "1.1,2.1,2.2"
+      },
+      {
+        "title": "Do You Play?",
+        "content": "Preguntar y responder Do you…? con respuestas breves de U1.",
+        "mechanic": "Entrevistar a un personaje o compañero mediante tarjetas de rol.",
+        "evidence": "Diálogo de tres turnos con respuestas pertinentes.",
+        "criteria": "1.1,2.1,3.1"
+      },
+      {
+        "title": "Build a Sports Club",
+        "content": "Invitar y acordar día/actividad usando lenguaje de U1.",
+        "mechanic": "Crear un anuncio original y preparar una invitación por parejas.",
+        "evidence": "Anuncio breve y diálogo observado.",
+        "criteria": "2.1,2.2,3.1"
+      },
+      {
+        "title": "Animals Near the Noria",
+        "content": "Comprender nombres de animales de U2.",
+        "mechanic": "Resolver seis pistas visuales/auditivas y crear un pequeño glosario.",
+        "evidence": "Tarjetas de tres animales etiquetadas.",
+        "criteria": "1.1,2.2"
+      },
+      {
+        "title": "Fur, Feathers or Scales?",
+        "content": "Reconocer vocabulario de rasgos corporales de U2.",
+        "mechanic": "Agrupar detalles de animales y escuchar descripciones breves.",
+        "evidence": "Dos descripciones apoyadas en rasgos visibles.",
+        "criteria": "1.1,2.1"
+      },
+      {
+        "title": "It Has Got a Tail",
+        "content": "Describir rasgos presentes con has got de U2.",
+        "mechanic": "Completar expedientes de animales y explicar una elección.",
+        "evidence": "Tres frases o un pequeño texto descriptivo.",
+        "criteria": "1.1,2.1,2.2"
+      },
+      {
+        "title": "It Has Not Got Fur",
+        "content": "Comprender y producir descripciones negativas de U2.",
+        "mechanic": "Detectar una pista que no coincide con la imagen y corregirla.",
+        "evidence": "Dos afirmaciones contrastadas con la imagen.",
+        "criteria": "1.1,2.1,2.2"
+      },
+      {
+        "title": "Ask Sira for a Clue",
+        "content": "Preguntar Has it got…? y responder de forma pertinente.",
+        "mechanic": "Jugar una adivinanza por parejas con cuatro pistas voluntarias.",
+        "evidence": "Intercambio oral de preguntas y respuestas observado.",
+        "criteria": "1.1,2.1,3.1"
+      },
+      {
+        "title": "Create an Amazing Animal",
+        "content": "Combinar vocabulario y estructuras de U2 en una creación original.",
+        "mechanic": "Dibujar un animal imaginario y redactar/revisar su descripción.",
+        "evidence": "Ilustración y texto de tres o cuatro frases.",
+        "criteria": "2.1,2.2"
+      },
+      {
+        "title": "Meet Our New Mascot",
+        "content": "Presentar y describir un personaje recuperando Starter y U1/U2.",
+        "mechanic": "Compartir una tarjeta con saludo, actividad y rasgo corporal.",
+        "evidence": "Mini presentación o diálogo y revisión de una frase.",
+        "criteria": "1.1,2.1,2.2,3.1"
+      }
+    ]
+  },
+  {
+    "slug": "sociales",
+    "missions": [
+      {
+        "title": "Miramos el paisaje",
+        "content": "Distinguir elementos naturales y construcciones humanas.",
+        "mechanic": "Clasificar seis detalles y explicar una elección sobre una escena ficticia.",
+        "evidence": "Dibujo con dos elementos identificados.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Entre montañas y valles",
+        "content": "Reconocer formas de relieve montañoso en representaciones sencillas.",
+        "mechanic": "Construir un paisaje con piezas y relacionar cima, ladera y valle.",
+        "evidence": "Maqueta o dibujo con explicación de relaciones.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Exploramos la llanura",
+        "content": "Comparar paisajes llanos y elevados usando pistas visuales.",
+        "mechanic": "Contrastar ilustraciones y elegir rasgos útiles para describirlas.",
+        "evidence": "Comparación oral o visual de dos paisajes.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Una ventana a la costa",
+        "content": "Reconocer formas básicas del paisaje costero.",
+        "mechanic": "Relacionar playa/acantilado con escenas y construir una costa ficticia.",
+        "evidence": "Esquema con dos rasgos costeros explicados.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "El código de los mapas",
+        "content": "Leer símbolos y leyendas sin atribuir planos ficticios a lugares reales.",
+        "mechanic": "Seguir y crear una ruta con una leyenda persistente.",
+        "evidence": "Plano con tres símbolos y recorrido explicado.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Paisajes que cambian",
+        "content": "Relacionar acciones humanas y cambios del paisaje.",
+        "mechanic": "Comparar escenas antes/después y distinguir dato de suposición.",
+        "evidence": "Explicación de un cambio y su efecto.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Cuidamos un paisaje",
+        "content": "Valorar patrimonio natural y proponer su conservación.",
+        "mechanic": "Resolver decisiones sobre un paisaje y justificar dos medidas.",
+        "evidence": "Cartel de conservación con razones.",
+        "criteria": "4.3,5.1"
+      },
+      {
+        "title": "¿Dónde encontramos agua?",
+        "content": "Distinguir ejemplos de aguas marinas y continentales.",
+        "mechanic": "Clasificar ocho imágenes y discutir casos con información adicional.",
+        "evidence": "Mapa de tipos de agua con ejemplos.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "El río de principio a fin",
+        "content": "Identificar nacimiento, curso y desembocadura en un esquema.",
+        "mechanic": "Completar un recorrido mediante flechas y pistas de relieve.",
+        "evidence": "Esquema del río con relaciones explicadas.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Aguas que se reúnen",
+        "content": "Comprender relaciones entre cauces en un mapa sencillo.",
+        "mechanic": "Seguir recorridos de un río y un afluente ficticios.",
+        "evidence": "Explicación de dónde se unen dos recorridos.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Lagos y embalses",
+        "content": "Comparar masas de agua y distinguir intervención humana.",
+        "mechanic": "Investigar tarjetas preparadas y relacionar forma, origen y uso.",
+        "evidence": "Tabla con una semejanza y una diferencia.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "El agua que no vemos",
+        "content": "Reconocer presencia y usos de aguas subterráneas con un modelo.",
+        "mechanic": "Explorar un corte esquemático y señalar qué representa.",
+        "evidence": "Modelo comentado y una pregunta investigable.",
+        "criteria": "2.1,4.1,4.2"
+      },
+      {
+        "title": "El agua se transforma",
+        "content": "Relacionar cambios del agua y sus recorridos en una representación.",
+        "mechanic": "Ordenar una secuencia de transformación y explicar una conexión.",
+        "evidence": "Diagrama explicado, ajustado al vocabulario de aula.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "El agua en nuestro día",
+        "content": "Identificar usos y necesidades de agua sin recoger datos familiares.",
+        "mechanic": "Resolver cuatro escenas del colegio y proponer un uso responsable.",
+        "evidence": "Comparación razonada de dos decisiones.",
+        "criteria": "4.2,5.1"
+      },
+      {
+        "title": "Detectives de las pérdidas",
+        "content": "Usar observaciones para proponer ahorro de agua.",
+        "mechanic": "Revisar un registro ficticio o docente y elegir una mejora justificable.",
+        "evidence": "Propuesta con observación, medida y forma de comprobarla.",
+        "criteria": "5.1"
+      },
+      {
+        "title": "Nuestro compromiso con el agua",
+        "content": "Explicar y revisar una acción concreta de conservación.",
+        "mechanic": "Seleccionar una mejora, compartir su razón y fijar cómo observar su efecto.",
+        "evidence": "Acuerdo ilustrado y criterio de comprobación.",
+        "criteria": "4.3,5.1"
+      }
+    ]
+  },
+  {
+    "slug": "plastica",
+    "missions": [
+      {
+        "title": "La marca del explorador",
+        "content": "Usar línea y forma para comunicar una identidad ficticia.",
+        "mechanic": "Crear un emblema original con tres formas seleccionables.",
+        "evidence": "Emblema y explicación de una elección.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Caminos de líneas",
+        "content": "Observar y combinar tipos de líneas con intención expresiva.",
+        "mechanic": "Comparar seis trazos y dibujar un recorrido expresivo.",
+        "evidence": "Dibujo y descripción de su intención.",
+        "criteria": "1.1,3.1"
+      },
+      {
+        "title": "Formas que construyen",
+        "content": "Relacionar formas y composición de un objeto o personaje.",
+        "mechanic": "Construir una figura con piezas y probar dos disposiciones.",
+        "evidence": "Dos versiones y elección explicada.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "El laboratorio del color",
+        "content": "Explorar mezclas y contrastes mediante ejemplos y materiales reales.",
+        "mechanic": "Comparar combinaciones digitales y probar una mezcla física.",
+        "evidence": "Muestra de color y registro de observación.",
+        "criteria": "1.1,3.1"
+      },
+      {
+        "title": "Colores para una idea",
+        "content": "Seleccionar colores según un propósito comunicativo.",
+        "mechanic": "Diseñar dos versiones de un mensaje y explicar su efecto.",
+        "evidence": "Composición con razón de selección cromática.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Texturas que miramos",
+        "content": "Identificar textura visual y distinguirla del tacto real.",
+        "mechanic": "Relacionar detalles originales y proponer una textura dibujada.",
+        "evidence": "Tarjeta de textura con descripción.",
+        "criteria": "1.1,3.1"
+      },
+      {
+        "title": "Texturas que tocamos",
+        "content": "Explorar cualidades táctiles con materiales seguros disponibles.",
+        "mechanic": "Preparar una búsqueda de texturas y registrar semejanzas.",
+        "evidence": "Muestrario físico explicado mediante la modalidad elegida.",
+        "criteria": "1.1,3.2"
+      },
+      {
+        "title": "El collage de la huerta",
+        "content": "Combinar materiales reutilizados con intención compositiva.",
+        "mechanic": "Elegir y colocar materiales en un collage digital/físico.",
+        "evidence": "Collage y explicación de dos decisiones.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Cerca, lejos, delante",
+        "content": "Organizar elementos visuales para representar relaciones espaciales.",
+        "mechanic": "Probar capas y tamaños con botones accesibles.",
+        "evidence": "Escena con relaciones espaciales explicadas.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Personajes con gesto",
+        "content": "Relacionar postura, gesto e intención narrativa sin una respuesta estética única.",
+        "mechanic": "Crear dos gestos de un personaje original mediante piezas/dibujo.",
+        "evidence": "Pareja de imágenes y explicación.",
+        "criteria": "1.1,3.2"
+      },
+      {
+        "title": "Un escenario para la historia",
+        "content": "Crear un ambiente coherente con una escena narrativa.",
+        "mechanic": "Construir dos fondos originales y elegir elementos relevantes.",
+        "evidence": "Escenario con intención explicada.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "La historia en viñetas",
+        "content": "Comunicar una secuencia mediante imágenes.",
+        "mechanic": "Ordenar y crear tres viñetas originales con transiciones comprensibles.",
+        "evidence": "Secuencia visual y explicación del orden.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Un cartel que se entiende",
+        "content": "Relacionar destinatario, imagen, texto y legibilidad.",
+        "mechanic": "Comparar diseños y componer un anuncio de la exposición.",
+        "evidence": "Borrador de cartel con propósito definido.",
+        "criteria": "1.1,3.1"
+      },
+      {
+        "title": "Probamos desde lejos",
+        "content": "Revisar tamaño y contraste de un mensaje visual.",
+        "mechanic": "Probar dos versiones del título y observar su legibilidad.",
+        "evidence": "Decisión de revisión justificada.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Galería cooperativa",
+        "content": "Compartir procesos y organizar una producción conjunta.",
+        "mechanic": "Acordar selección, orden y roles para una pequeña exposición.",
+        "evidence": "Obra y explicación del proceso compartido.",
+        "criteria": "4.3"
+      },
+      {
+        "title": "Mi decisión de artista",
+        "content": "Explicar y revisar una elección propia.",
+        "mechanic": "Elegir una obra del trimestre y mostrar una mejora concreta.",
+        "evidence": "Comparación antes/después y razón.",
+        "criteria": "3.2,4.3"
+      }
+    ]
+  },
+  {
+    "slug": "musica",
+    "missions": [
+      {
+        "title": "Escucha y espera",
+        "content": "Distinguir sonido y silencio en una secuencia breve.",
+        "mechanic": "Seguir cuatro señales auditivas o equivalentes visuales.",
+        "evidence": "Secuencia interpretada con una acción accesible.",
+        "criteria": "1.1,3.2"
+      },
+      {
+        "title": "¿Quién suena?",
+        "content": "Reconocer timbres de voz, objetos e instrumentos sencillos.",
+        "mechanic": "Relacionar sonidos originales con su fuente mediante pistas.",
+        "evidence": "Comparación de dos timbres o sus representaciones.",
+        "criteria": "1.1"
+      },
+      {
+        "title": "Fuerte y suave",
+        "content": "Explorar intensidad sin confundirla con altura.",
+        "mechanic": "Comparar ejemplos y proponer un contraste interpretado.",
+        "evidence": "Pareja de sonidos/gestos con contraste explicado.",
+        "criteria": "1.1,3.2"
+      },
+      {
+        "title": "Sonidos que duran",
+        "content": "Comparar duración larga/corta mediante escucha y representación.",
+        "mechanic": "Ordenar duraciones y crear una secuencia de cuatro elementos.",
+        "evidence": "Secuencia dibujada e interpretada.",
+        "criteria": "1.1,3.1"
+      },
+      {
+        "title": "Agudo o grave",
+        "content": "Comparar altura sonora usando ejemplos y apoyos visuales.",
+        "mechanic": "Relacionar parejas y representar una subida/bajada.",
+        "evidence": "Modelo visual o interpretación con explicación.",
+        "criteria": "1.1,3.2"
+      },
+      {
+        "title": "El mapa de los sonidos",
+        "content": "Representar una pequeña composición con símbolos propios.",
+        "mechanic": "Construir una partitura no convencional y probar su lectura.",
+        "evidence": "Partitura gráfica comentada.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Un pulso que nos reúne",
+        "content": "Mantener un pulso regular con una acción accesible.",
+        "mechanic": "Seguir un pulso voluntario y ajustable sin puntuar latencia.",
+        "evidence": "Interpretación observada o adaptación equivalente.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Palmas, pasos o señales",
+        "content": "Coordinar acciones alternativas sobre un mismo pulso.",
+        "mechanic": "Elegir una modalidad corporal/instrumental y practicar patrones.",
+        "evidence": "Patrón de cuatro pulsos observado.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Eco de cuatro pulsos",
+        "content": "Reconocer y reproducir un patrón breve.",
+        "mechanic": "Escuchar/ver un modelo y responder con una secuencia equivalente.",
+        "evidence": "Eco interpretado y comparación con el modelo.",
+        "criteria": "1.1,3.1"
+      },
+      {
+        "title": "El silencio también cuenta",
+        "content": "Integrar silencios en un patrón rítmico.",
+        "mechanic": "Completar secuencias con símbolos de sonido y pausa.",
+        "evidence": "Patrón de cuatro u ocho posiciones interpretado.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Jugamos con el tempo",
+        "content": "Comparar tempos sin alterar la estructura del patrón.",
+        "mechanic": "Probar una misma secuencia en dos velocidades elegidas.",
+        "evidence": "Explicación e interpretación de dos versiones.",
+        "criteria": "1.1,3.1"
+      },
+      {
+        "title": "Mi pequeña variación",
+        "content": "Crear una variación y conservar una parte reconocible.",
+        "mechanic": "Modificar un elemento del patrón y comparar resultados.",
+        "evidence": "Patrón original y variación explicada.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "Elegimos nuestra pieza",
+        "content": "Organizar ideas para una composición colectiva.",
+        "mechanic": "Seleccionar patrones y acordar una estructura breve.",
+        "evidence": "Guion de composición y papeles accesibles.",
+        "criteria": "3.1,4.2"
+      },
+      {
+        "title": "Entramos por turnos",
+        "content": "Coordinar entradas y escucha entre participantes.",
+        "mechanic": "Ensayar una pieza corta con señales claras y pausas.",
+        "evidence": "Ensayo observado y acuerdo de mejora.",
+        "criteria": "3.2,4.2"
+      },
+      {
+        "title": "La orquesta de la noria",
+        "content": "Interpretar y revisar una creación cooperativa.",
+        "mechanic": "Realizar la composición y comparar con el plan acordado.",
+        "evidence": "Interpretación y reflexión del equipo.",
+        "criteria": "3.1,4.2"
+      },
+      {
+        "title": "Un detalle que mejoramos",
+        "content": "Explicar una decisión de interpretación o creación.",
+        "mechanic": "Mostrar un fragmento y repetirlo con una mejora elegida.",
+        "evidence": "Dos versiones breves y explicación.",
+        "criteria": "3.2,4.2"
+      }
+    ]
+  },
+  {
+    "slug": "educacion-fisica",
+    "missions": [
+      {
+        "title": "Preparamos el espacio",
+        "content": "Reconocer condiciones de práctica y preparación segura.",
+        "mechanic": "Elegir cuatro comprobaciones y preparar una zona con el docente.",
+        "evidence": "Observación de preparación y explicación de una decisión.",
+        "criteria": "1.2"
+      },
+      {
+        "title": "Nos movemos de muchas formas",
+        "content": "Explorar desplazamientos adaptados al propio cuerpo y espacio.",
+        "mechanic": "Anticipar tres variantes y practicarlas con elección docente.",
+        "evidence": "Ejecución corporal y reconocimiento de una variante adecuada.",
+        "criteria": "2.3"
+      },
+      {
+        "title": "Rutas con referencias",
+        "content": "Orientar desplazamientos usando referencias espaciales.",
+        "mechanic": "Recorrer señales o una variante sentada/accesible.",
+        "evidence": "Observación del control espacial en un recorrido.",
+        "criteria": "2.3"
+      },
+      {
+        "title": "Equilibrios posibles",
+        "content": "Ajustar postura y apoyos para un reto de equilibrio.",
+        "mechanic": "Elegir una variante viable y comparar dos apoyos con supervisión.",
+        "evidence": "Control corporal observado, respetando adaptaciones.",
+        "criteria": "2.3"
+      },
+      {
+        "title": "Parar y continuar",
+        "content": "Regular movimiento y detención siguiendo señales claras.",
+        "mechanic": "Practicar señales visuales/sonoras equivalentes sin eliminación.",
+        "evidence": "Secuencia de movimiento y pausa observada.",
+        "criteria": "2.3"
+      },
+      {
+        "title": "Manos que coordinan",
+        "content": "Explorar manipulación y coordinación con objetos apropiados.",
+        "mechanic": "Anticipar y realizar tres tareas adaptables con objetos elegidos por el docente.",
+        "evidence": "Observación de control y ajuste de una estrategia.",
+        "criteria": "2.3"
+      },
+      {
+        "title": "Trayectorias que probamos",
+        "content": "Ajustar un envío de objeto a un objetivo cercano.",
+        "mechanic": "Probar una variante de rodar/lanzar/dirigir accesible y revisar.",
+        "evidence": "Comparación de dos intentos y ajuste explicado.",
+        "criteria": "2.3"
+      },
+      {
+        "title": "Recibimos a nuestra manera",
+        "content": "Coordinar recepción o control de objetos mediante apoyos elegidos.",
+        "mechanic": "Realizar un intercambio cooperativo con alternativas de acción.",
+        "evidence": "Observación de anticipación y control.",
+        "criteria": "2.3,3.3"
+      },
+      {
+        "title": "El circuito que elegimos",
+        "content": "Combinar acciones y reconocer necesidades de adaptación.",
+        "mechanic": "Organizar un circuito de tres estaciones con variantes equivalentes.",
+        "evidence": "Recorrido real y explicación de una adaptación.",
+        "criteria": "2.3,3.3"
+      },
+      {
+        "title": "Reglas para poder jugar",
+        "content": "Comprender reglas y acordar una adaptación inclusiva.",
+        "mechanic": "Comparar propuestas y practicar un juego sin eliminación.",
+        "evidence": "Observación de cumplimiento y acuerdo compartido.",
+        "criteria": "3.2,3.3"
+      },
+      {
+        "title": "Una meta entre todos",
+        "content": "Cooperar en un reto motor con papeles accesibles.",
+        "mechanic": "Elegir estrategia y realizar un desafío colectivo.",
+        "evidence": "Registro docente de participación y cooperación.",
+        "criteria": "3.2,3.3"
+      },
+      {
+        "title": "Cuando no estamos de acuerdo",
+        "content": "Resolver un desacuerdo del juego mediante diálogo y reglas.",
+        "mechanic": "Representar una escena y aplicar un acuerdo en juego real.",
+        "evidence": "Observación de mediación y retorno al juego.",
+        "criteria": "3.2,3.3"
+      },
+      {
+        "title": "El cuerpo cuenta una pista",
+        "content": "Usar gesto y postura para comunicar una idea.",
+        "mechanic": "Preparar y mostrar tres gestos con variantes motrices.",
+        "evidence": "Secuencia corporal y comprensión por un compañero.",
+        "criteria": "2.3,3.3"
+      },
+      {
+        "title": "Una historia en cuatro acciones",
+        "content": "Coordinar una secuencia expresiva compartida.",
+        "mechanic": "Elegir cuatro acciones y ensayarlas con turnos adaptados.",
+        "evidence": "Representación grupal breve observada.",
+        "criteria": "2.3,3.3"
+      },
+      {
+        "title": "Revisamos nuestro juego",
+        "content": "Ajustar reglas y acciones para facilitar participación y control.",
+        "mechanic": "Diseñar una variante de un reto ya practicado y probarla.",
+        "evidence": "Comparación de participación antes/después.",
+        "criteria": "2.3,3.2,3.3"
+      },
+      {
+        "title": "Mi próxima meta de movimiento",
+        "content": "Reconocer un hábito de preparación y una mejora motriz.",
+        "mechanic": "Repetir una acción elegida y explicar qué ayuda a realizarla.",
+        "evidence": "Observación de la acción y meta personal no comparativa.",
+        "criteria": "1.2,2.3"
+      }
+    ]
+  },
+  {
+    "slug": "religion",
+    "missions": [
+      {
+        "title": "Cada persona cuenta",
+        "content": "Reconocer identidad y dignidad en una situación cercana en diálogo con el mensaje cristiano.",
+        "mechanic": "Interpretar una escena original y crear un emblema de cualidades ficticias.",
+        "evidence": "Composición breve que explique respeto a la dignidad.",
+        "criteria": "1.1"
+      },
+      {
+        "title": "Diferentes y valiosos",
+        "content": "Relacionar diversidad de cualidades y valor igual de las personas.",
+        "mechanic": "Comparar personajes y resolver una escena de reconocimiento mutuo.",
+        "evidence": "Explicación de una acción de respeto.",
+        "criteria": "1.1,1.2"
+      },
+      {
+        "title": "La llamada de Samuel",
+        "content": "Comprender vocación y respuesta mediante una adaptación original de1Samuel3.",
+        "mechanic": "Ordenar cuatro escenas y explicar una decisión del relato.",
+        "evidence": "Relato resumido y relación con responsabilidad.",
+        "criteria": "1.1"
+      },
+      {
+        "title": "Cuidamos la casa común",
+        "content": "Relacionar cuidado de la vida y naturaleza con la visión cristiana.",
+        "mechanic": "Analizar dos acciones a partir de un relato/modelo seleccionado.",
+        "evidence": "Propuesta de cuidado con referencia al contenido trabajado.",
+        "criteria": "1.2"
+      },
+      {
+        "title": "Jesús y su comunidad",
+        "content": "Comprender relaciones de amistad y responsabilidad en un pasaje sobre la comunidad de Jesús.",
+        "mechanic": "Relacionar acciones y personajes con una adaptación referenciada.",
+        "evidence": "Explicación de un gesto de responsabilidad compartida.",
+        "criteria": "2.2"
+      },
+      {
+        "title": "Un vecino que ayuda",
+        "content": "Interpretar cuidado y solidaridad desde la parábola del buen samaritano,Lc10.",
+        "mechanic": "Reconstruir una escena y comparar dos respuestas ante la necesidad.",
+        "evidence": "Explicación vinculada al relato, sin pedir adhesión personal.",
+        "criteria": "2.1,3.2"
+      },
+      {
+        "title": "Dar otra oportunidad",
+        "content": "Comprender perdón y reparación en un pasaje evangélico seleccionado.",
+        "mechanic": "Elegir acciones de reparación y justificar varias alternativas.",
+        "evidence": "Dramatización o composición de una reparación.",
+        "criteria": "2.1,3.2"
+      },
+      {
+        "title": "Una bienvenida de verdad",
+        "content": "Relacionar acogida y pertenencia con comportamientos del Nuevo Testamento.",
+        "mechanic": "Diseñar una escena de acogida y relacionarla con el pasaje leído.",
+        "evidence": "Escena explicada mediante dos pistas del relato.",
+        "criteria": "2.1"
+      },
+      {
+        "title": "Solidaridad con un propósito",
+        "content": "Analizar una necesidad ficticia y proponer una acción responsable.",
+        "mechanic": "Planificar una pequeña respuesta solidaria sin recoger datos familiares.",
+        "evidence": "Propuesta cooperativa con finalidad y reparto de tareas.",
+        "criteria": "3.1,3.2"
+      },
+      {
+        "title": "La Iglesia como comunidad",
+        "content": "Reconocer continuidad de la misión de Jesús en comunidades cristianas.",
+        "mechanic": "Comparar ejemplos preparados de servicio comunitario y sus fines.",
+        "evidence": "Panel explicativo de un ejemplo y su significado.",
+        "criteria": "6.2"
+      },
+      {
+        "title": "Relatos que inspiran imágenes",
+        "content": "Relacionar una expresión artística cristiana con su referencia bíblica.",
+        "mechanic": "Comparar imágenes originales/autorizadas y localizar una pista del relato.",
+        "evidence": "Relación explicada entre imagen y texto.",
+        "criteria": "4.1"
+      },
+      {
+        "title": "El calendario de una celebración",
+        "content": "Reconocer elementos de las celebraciones cristianas y su relación con Jesús.",
+        "mechanic": "Construir un calendario simbólico guiado, sin exigir práctica devocional.",
+        "evidence": "Explicación del significado de una celebración.",
+        "criteria": "4.2"
+      },
+      {
+        "title": "Preparar y esperar",
+        "content": "Comprender el significado de Adviento si figura en la programación.",
+        "mechanic": "Relacionar símbolos y mensajes en tarjetas originales y justificarlos.",
+        "evidence": "Panel breve sobre preparación y su referencia cristiana.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "El relato de Navidad",
+        "content": "Comprender el nacimiento de Jesús en una adaptación referenciada deLc2.",
+        "mechanic": "Ordenar cuatro escenas distinguiendo contenido del relato y elementos decorativos.",
+        "evidence": "Resumen oral o visual con una referencia al texto.",
+        "criteria": "4.1,4.2"
+      },
+      {
+        "title": "Navidad en el arte",
+        "content": "Interpretar una representación cultural y su significado cristiano.",
+        "mechanic": "Crear un panel original que conecte símbolos y relato.",
+        "evidence": "Panel comentado sin valorar creencias o costumbres familiares.",
+        "criteria": "4.1"
+      },
+      {
+        "title": "El significado que explicamos",
+        "content": "Revisar una relación entre celebración, símbolo y relato.",
+        "mechanic": "Elegir una tarjeta del panel y explicar/corregir una conexión.",
+        "evidence": "Explicación breve basada en el contenido trabajado.",
+        "criteria": "4.1,4.2"
+      }
+    ]
+  }
+]

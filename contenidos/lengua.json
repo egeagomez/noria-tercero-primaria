@@ -1,0 +1,1609 @@
+{
+  "slug": "lengua",
+  "title": "Lengua",
+  "description": "Dieciséis misiones originales de lectura, escritura y creación para 3.º de Primaria: propuesta propia ajustable a la programación de Superletras, sin reproducir su índice ni sus materiales.",
+  "missions": [
+    {
+      "id": "LCL-T1-S01",
+      "week": 1,
+      "title": "La nota de bienvenida de Nori",
+      "goal": "Comprender una nota de tres frases e identificar quién invita y para qué.",
+      "intro": "Nori ha dejado una nota para comenzar nuestra aventura; busca sus pistas.",
+      "guide": "nori",
+      "story": "Hola, equipo de tercero: os invito al taller de la noria. Nos reuniremos allí para preparar un rincón de cuentos. Os espera Nori.",
+      "criteria": [
+        "4.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Quién invita al equipo?",
+          "options": [
+            "Plumi",
+            "Nori",
+            "Sira"
+          ],
+          "answer": 1,
+          "hint": "Mira cómo termina la nota.",
+          "explanation": "La última frase dice «Os espera Nori»: Nori escribe la invitación."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Para qué se reúne el equipo?",
+          "options": [
+            "Para preparar un rincón de cuentos",
+            "Para comprar una bicicleta",
+            "Para ver una película"
+          ],
+          "answer": 0,
+          "hint": "Busca las palabras que siguen a «para».",
+          "explanation": "La nota explica que se reunirán «para preparar un rincón de cuentos»."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada dato con la pista de la nota.",
+          "pairs": [
+            [
+              "Destinatario",
+              "Equipo de tercero"
+            ],
+            [
+              "Lugar",
+              "Taller de la noria"
+            ]
+          ],
+          "hint": "Busca el saludo y el lugar de la reunión.",
+          "explanation": "El saludo nombra al equipo de tercero y la primera frase señala el taller."
+        }
+      ],
+      "project": {
+        "title": "Una pista que lo demuestra",
+        "prompt": "Completa: «La nota invita a… Lo sé porque dice…». Puedes señalar la frase y explicarlo oralmente.",
+        "model": "La nota invita al equipo de tercero. Lo sé porque empieza con «Hola, equipo de tercero».",
+        "checklist": [
+          "Identifico a quién va dirigida.",
+          "Señalo una frase de la nota.",
+          "Mi explicación coincide con esa frase."
+        ],
+        "extension": "Escribe otra nota de dos frases cambiando el propósito de la reunión.",
+        "teacherNotes": "Observar si relaciona la respuesta con información del texto; registrar por separado lectura en voz alta del adulto y ayuda para interpretar."
+      }
+    },
+    {
+      "id": "LCL-T1-S02",
+      "week": 2,
+      "title": "El principio que faltaba",
+      "goal": "Reconocer personajes, lugar y situación inicial en un cuento breve original.",
+      "intro": "Plumi necesita un mapa de la historia antes de imaginar cómo continúa.",
+      "guide": "plumi",
+      "story": "Al abrir el taller de la noria, Sira encontró una caja de cuentos vacía. Era la primera mañana del club de lectura y pronto llegarían Nori, Plumi y Lumo. Sira miró debajo de la mesa, pero solo encontró un ovillo azul. Entonces oyó un golpe suave junto a la ventana. Una hoja de papel se había quedado atrapada entre dos macetas. En ella aparecía el dibujo de la caja y una flecha hacia el patio. Sira guardó el ovillo en su mochila y salió para seguir aquella pista. Todavía no sabía quién había movido los cuentos.",
+      "criteria": [
+        "4.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Dónde comienza la historia?",
+          "options": [
+            "En el río",
+            "En el taller de la noria",
+            "En una biblioteca de otro pueblo"
+          ],
+          "answer": 1,
+          "hint": "Relee las primeras seis palabras.",
+          "explanation": "El relato comienza cuando Sira abre el taller de la noria."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada elemento con su función en el cuento.",
+          "pairs": [
+            [
+              "Sira",
+              "Personaje que busca"
+            ],
+            [
+              "Caja vacía",
+              "Problema inicial"
+            ],
+            [
+              "Hoja con una flecha",
+              "Pista hacia el patio"
+            ]
+          ],
+          "hint": "Distingue quién actúa, qué falta y qué ayuda.",
+          "explanation": "Sira realiza la búsqueda, la caja vacía inicia el problema y la flecha orienta el recorrido."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Por qué Sira quiere encontrar los cuentos pronto?",
+          "options": [
+            "Porque va a llover",
+            "Porque quiere venderlos",
+            "Porque pronto empieza el club de lectura"
+          ],
+          "answer": 2,
+          "hint": "Busca qué iba a pasar aquella mañana.",
+          "explanation": "El relato anuncia la llegada del club de lectura; los cuentos hacen falta para esa reunión."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena estos hechos según el relato.",
+          "items": [
+            "Sira encuentra la caja vacía.",
+            "Sira mira debajo de la mesa.",
+            "Sira oye un golpe junto a la ventana.",
+            "Sira sale hacia el patio."
+          ],
+          "hint": "Sigue las acciones desde el comienzo del texto.",
+          "explanation": "Primero aparece el problema; después busca debajo de la mesa, oye el golpe y sigue la pista."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué sabemos con seguridad al terminar este fragmento?",
+          "options": [
+            "Sira sigue una pista hacia el patio.",
+            "Lumo escondió todos los libros.",
+            "Los cuentos estaban mojados."
+          ],
+          "answer": 0,
+          "hint": "Elige algo que el texto diga o permita asegurar.",
+          "explanation": "Sabemos que Sira sale al patio; todavía no sabemos quién movió los cuentos ni dónde están."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada información con el fragmento que la demuestra.",
+          "pairs": [
+            [
+              "Era el primer encuentro del club.",
+              "Era la primera mañana del club de lectura."
+            ],
+            [
+              "Todavía quedaba un misterio.",
+              "Todavía no sabía quién había movido los cuentos."
+            ]
+          ],
+          "hint": "Busca una frase para cada afirmación.",
+          "explanation": "Ambas afirmaciones tienen apoyo directo en esas frases del cuento."
+        }
+      ],
+      "project": {
+        "title": "El mapa del comienzo",
+        "prompt": "Dibuja o escribe quién actúa, dónde está y qué problema encuentra; añade dos frases del texto que te ayudan.",
+        "model": "Personaje: Sira. Lugar: el taller. Problema: faltan los cuentos. Pistas: «Al abrir el taller» y «una caja de cuentos vacía».",
+        "checklist": [
+          "Identifico el personaje principal del fragmento.",
+          "Distingo el lugar y el problema.",
+          "Añado dos pistas del texto."
+        ],
+        "extension": "Propón una explicación posible del misterio y marca claramente que todavía es una suposición.",
+        "teacherNotes": "Observar comprensión del inicio y elección de pistas; no valorar la suposición como un hecho ni exigir copia extensa."
+      }
+    },
+    {
+      "id": "LCL-T1-S03",
+      "week": 3,
+      "title": "Las huellas del relato",
+      "goal": "Ordenar acontecimientos y reconocer conectores temporales en una narración.",
+      "intro": "Sira ha encontrado una nueva pista: cada palabra de tiempo deja una huella.",
+      "guide": "sira",
+      "story": "Primero, Nori dejó cuatro sobres en el banco del patio. Cada sobre llevaba el dibujo de una pieza de la noria. Después, Sira abrió el sobre de la rueda y encontró una cinta amarilla. La ató a la rama más baja del limonero para señalar el camino. Más tarde, Plumi siguió la cinta hasta una cesta cubierta con una tela. Levantó la tela despacio y descubrió los cuentos que faltaban. Por último, Lumo llevó la cesta al taller. Dentro había también una nota: los cuentos habían salido al patio para una lectura al aire libre. El equipo decidió leer allí después de ordenar el rincón.",
+      "criteria": [
+        "4.1"
+      ],
+      "tasks": [
+        {
+          "type": "order",
+          "prompt": "Ordena los cuatro hechos que marcan el recorrido.",
+          "items": [
+            "Nori deja cuatro sobres.",
+            "Sira ata una cinta al limonero.",
+            "Plumi encuentra la cesta de cuentos.",
+            "Lumo lleva la cesta al taller."
+          ],
+          "hint": "Fíjate en «primero», «después», «más tarde» y «por último».",
+          "explanation": "Los conectores indican una secuencia que coincide con ese orden."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona el conector con el momento que señala.",
+          "pairs": [
+            [
+              "Primero",
+              "Inicio del recorrido"
+            ],
+            [
+              "Más tarde",
+              "Un momento posterior"
+            ],
+            [
+              "Por último",
+              "Cierre del recorrido"
+            ]
+          ],
+          "hint": "Los conectores ayudan a saber cuándo sucede cada acción.",
+          "explanation": "«Primero» abre la secuencia, «más tarde» la hace avanzar y «por último» cierra el recorrido descrito."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué ocurre inmediatamente después de que Plumi levante la tela?",
+          "options": [
+            "Nori deja los sobres.",
+            "Plumi descubre los cuentos.",
+            "Sira abre el sobre."
+          ],
+          "answer": 1,
+          "hint": "Busca la oración que empieza «Levantó la tela».",
+          "explanation": "Al levantar la tela, Plumi descubre los cuentos que faltaban."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué frase explica para qué ata Sira la cinta?",
+          "options": [
+            "«para señalar el camino»",
+            "«Dentro había también una nota»",
+            "«Cada sobre llevaba el dibujo»"
+          ],
+          "answer": 0,
+          "hint": "Busca el propósito de colocar la cinta.",
+          "explanation": "El texto dice que la ata «para señalar el camino»: esa es la finalidad de su acción."
+        },
+        {
+          "type": "order",
+          "prompt": "Reconstruye la búsqueda de Plumi.",
+          "items": [
+            "Sigue la cinta hasta la cesta.",
+            "Levanta la tela.",
+            "Descubre los cuentos."
+          ],
+          "hint": "No puede ver lo que cubre la tela antes de levantarla.",
+          "explanation": "La llegada a la cesta permite levantar la tela y descubrir lo que había debajo."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Por qué estaban los cuentos en el patio?",
+          "options": [
+            "Porque iban a tirarlos.",
+            "Porque una tormenta los arrastró.",
+            "Porque se preparaba una lectura al aire libre."
+          ],
+          "answer": 2,
+          "hint": "La nota de la cesta aclara el motivo.",
+          "explanation": "La nota explica que los cuentos habían salido para una lectura al aire libre."
+        }
+      ],
+      "project": {
+        "title": "Cuatro escenas con sus huellas",
+        "prompt": "Representa cuatro hechos del relato y añade un conector a cada uno; explica qué frase permite situar uno de ellos.",
+        "model": "Primero, Nori deja los sobres. Después, Sira coloca la cinta. Más tarde, Plumi encuentra los cuentos. Por último, Lumo lleva la cesta.",
+        "checklist": [
+          "Conservo el orden del relato.",
+          "Uso conectores de tiempo.",
+          "Justifico una posición con una pista escrita."
+        ],
+        "extension": "Cuenta la misma secuencia empezando por el hallazgo y usa «antes» para explicar lo sucedido previamente.",
+        "teacherNotes": "Observar la secuencia y su justificación; admitir dibujos, tarjetas o explicación oral para evidenciar comprensión."
+      }
+    },
+    {
+      "id": "LCL-T1-S04",
+      "week": 4,
+      "title": "Un final para Sira",
+      "goal": "Crear un desenlace coherente con los personajes y el problema del cuento.",
+      "intro": "Hay un problema nuevo en la noria y tú puedes escribir más de un final posible.",
+      "guide": "sira",
+      "story": "Sira había preparado un pequeño teatro de sombras para el club de cuentos. Colocó una pantalla blanca en el taller y dejó las figuras de cartón sobre una bandeja. Nori probó la lámpara mientras Plumi repartía las sillas. Cuando Lumo llegó con el cuento, una ráfaga entró por la puerta y mezcló todas las figuras. La figura del protagonista perdió su palito y quedó detrás de una caja. Faltaban pocos minutos para empezar. Sira respiró despacio, miró los materiales de la mesa y pidió al equipo que pensara una solución. Allí había cinta de papel, lápices y un palito de repuesto.",
+      "criteria": [
+        "8.2"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué problema debe tener en cuenta cualquier final?",
+          "options": [
+            "La pantalla es negra.",
+            "La figura protagonista ha perdido el palito.",
+            "El taller se ha inundado."
+          ],
+          "answer": 1,
+          "hint": "Busca qué ocurre después de la ráfaga.",
+          "explanation": "El texto señala que el protagonista pierde su palito: un final coherente debe atender a ese problema."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada detalle con su papel en el relato.",
+          "pairs": [
+            [
+              "Sira",
+              "Prepara el teatro"
+            ],
+            [
+              "Ráfaga",
+              "Desordena las figuras"
+            ],
+            [
+              "Palito de repuesto",
+              "Material que puede ayudar"
+            ]
+          ],
+          "hint": "Distingue personajes, causa del problema y recursos disponibles.",
+          "explanation": "Cada detalle permite preparar un desenlace conectado con el inicio."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué afirmación respeta los datos del comienzo?",
+          "options": [
+            "Nori no está en el taller.",
+            "No queda ningún material.",
+            "El equipo dispone de cinta y un palito."
+          ],
+          "answer": 2,
+          "hint": "Relee la última frase.",
+          "explanation": "El cuento ofrece cinta, lápices y un palito de repuesto; se pueden usar al inventar un final."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena este modelo de solución; después podrás crear otro.",
+          "items": [
+            "Plumi encuentra la figura detrás de la caja.",
+            "Nori coloca el palito de repuesto.",
+            "Sira comprueba que la figura se mueve.",
+            "El equipo inicia el teatro."
+          ],
+          "hint": "En este modelo, primero encuentran la figura y después la reparan y prueban.",
+          "explanation": "Esta es una solución posible; el cuento también admite otros desenlaces coherentes."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué frase conecta una acción con su consecuencia?",
+          "options": [
+            "Nori sujetó el palito y la figura volvió a moverse.",
+            "La palabra noria tiene cinco letras.",
+            "Mañana hay otra estación."
+          ],
+          "answer": 0,
+          "hint": "Busca dos acciones relacionadas con la reparación.",
+          "explanation": "Sujetar el palito permite mover la figura: la frase expresa una relación útil para el desenlace."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué sabemos del final antes de escribirlo?",
+          "options": [
+            "Solo puede ser feliz.",
+            "Puede tener soluciones distintas si respeta el inicio.",
+            "Debe copiar exactamente el modelo."
+          ],
+          "answer": 1,
+          "hint": "Piensa en la diferencia entre una pista y un final obligatorio.",
+          "explanation": "La creación literaria admite distintos finales; aquí practicamos cómo mantener la coherencia."
+        }
+      ],
+      "project": {
+        "title": "Dos caminos y tu final",
+        "prompt": "Lee estos caminos: A) reparar la figura y probarla; B) convertir a Lumo en narrador mientras buscan la figura. Elige uno o inventa otro y escribe tres o cuatro frases.",
+        "model": "Nori encontró el palito de repuesto. Sira lo sujetó a la figura con cinta y probó sus movimientos. El personaje volvió a bailar sobre la pantalla. El equipo comenzó el cuento y dejó la puerta cerrada.",
+        "checklist": [
+          "Mi final responde al problema del comienzo.",
+          "Las acciones se entienden y están ordenadas.",
+          "Releo y mejoro una frase."
+        ],
+        "extension": "Escribe un segundo final con otra solución y explica qué cambia en la historia.",
+        "teacherNotes": "Valorar coherencia y revisión de la creación; no imponer el modelo ni premiar un tipo de final por su gusto estético."
+      }
+    },
+    {
+      "id": "LCL-T1-S05",
+      "week": 5,
+      "title": "El retrato de Plumi",
+      "goal": "Distinguir sustantivos y adjetivos por su función en descripciones breves.",
+      "intro": "Plumi quiere descubrir qué palabras nombran y cuáles añaden rasgos.",
+      "guide": "plumi",
+      "story": "Plumi es una lechuza curiosa. Lleva una mochila verde y guarda una pluma suave entre las páginas de su cuaderno. Sus ojos redondos observan los carteles del taller. Hoy cambia «mochila verde» por «mochila amarilla» para comprobar cómo una palabra modifica la imagen que imaginamos.",
+      "criteria": [
+        "9.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "En «una pluma suave», ¿qué palabra nombra el objeto?",
+          "options": [
+            "Suave",
+            "Una",
+            "Pluma"
+          ],
+          "answer": 2,
+          "hint": "Busca qué cosa podemos imaginar.",
+          "explanation": "«Pluma» nombra el objeto: funciona como sustantivo en esta expresión."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada sustantivo con el rasgo que tiene en el retrato.",
+          "pairs": [
+            [
+              "Mochila",
+              "Verde"
+            ],
+            [
+              "Pluma",
+              "Suave"
+            ],
+            [
+              "Ojos",
+              "Redondos"
+            ]
+          ],
+          "hint": "Busca cada grupo de palabras en el texto.",
+          "explanation": "Los adjetivos añaden información sobre los sustantivos a los que acompañan."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué cambia al escribir «mochila amarilla» en lugar de «mochila verde»?",
+          "options": [
+            "El color de la mochila.",
+            "El objeto deja de ser una mochila.",
+            "El número de mochilas."
+          ],
+          "answer": 0,
+          "hint": "Solo se ha sustituido una palabra de color.",
+          "explanation": "Cambia el color descrito; «mochila» sigue nombrando el mismo tipo de objeto."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona la palabra destacada con su función.",
+          "pairs": [
+            [
+              "«cuaderno» en «su cuaderno pequeño»",
+              "Nombra una cosa"
+            ],
+            [
+              "«pequeño» en «su cuaderno pequeño»",
+              "Indica un rasgo"
+            ],
+            [
+              "«observa» en «Plumi observa»",
+              "Expresa una acción"
+            ]
+          ],
+          "hint": "Mira qué aporta cada palabra a la frase.",
+          "explanation": "La función depende de cómo se usa la palabra: aquí se nombra, se describe o se expresa una acción."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué expresión describe un rasgo y mantiene la concordancia?",
+          "options": [
+            "Las plumas suaves",
+            "Las plumas suave",
+            "La plumas suaves"
+          ],
+          "answer": 0,
+          "hint": "Si hay varias plumas, revisa las palabras que las acompañan.",
+          "explanation": "«Las plumas suaves» mantiene el plural en las tres palabras."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué información añade «curiosa» en «una lechuza curiosa»?",
+          "options": [
+            "Indica cuántas alas tiene.",
+            "Dice qué desea conocer o explorar.",
+            "Nombra el cuaderno."
+          ],
+          "answer": 1,
+          "hint": "Piensa en alguien que observa y hace preguntas.",
+          "explanation": "«Curiosa» caracteriza a la lechuza como alguien interesado en conocer; no nombra otro objeto."
+        }
+      ],
+      "project": {
+        "title": "Dos retratos, dos imágenes",
+        "prompt": "Escribe dos frases sobre Plumi cambiando un adjetivo en la segunda versión; explica qué imagen cambia y qué sustantivo se mantiene.",
+        "model": "Versión A: Plumi lleva una mochila verde. Versión B: Plumi lleva una mochila pequeña. Se mantiene «mochila» y cambia el rasgo que cuento.",
+        "checklist": [
+          "Señalo el sustantivo que nombra.",
+          "Cambio un adjetivo con concordancia.",
+          "Explico qué información añade el cambio."
+        ],
+        "extension": "Compara un cambio de adjetivo con un cambio de sustantivo y explica por qué sus efectos son diferentes.",
+        "teacherNotes": "Observar la comparación de usos en frases con sentido; no reducir el objetivo a memorizar definiciones aisladas."
+      }
+    },
+    {
+      "id": "LCL-T1-S06",
+      "week": 6,
+      "title": "El personaje que nadie confunde",
+      "goal": "Planificar y escribir una descripción con rasgos ordenados y vocabulario preciso.",
+      "intro": "Lumo prepara fichas para identificar personajes sin escribir su nombre.",
+      "guide": "lumo",
+      "story": "En la mesa hay tres fichas. Ficha A: una nutria de pelaje marrón lleva una bolsa azul y sujeta una regadera. Ficha B: una lechuza de ojos redondos lleva una mochila verde y observa un cuaderno. Ficha C: un robot de cuerpo cuadrado tiene dos brazos articulados y una antena amarilla. Para describir, podemos empezar por qué es el personaje y añadir sus rasgos y objetos.",
+      "criteria": [
+        "5.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué ficha corresponde al personaje con antena amarilla?",
+          "options": [
+            "Ficha A",
+            "Ficha B",
+            "Ficha C"
+          ],
+          "answer": 2,
+          "hint": "Busca el objeto que aparece en la pregunta.",
+          "explanation": "Solo la ficha C menciona una antena amarilla."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada pista con su ficha.",
+          "pairs": [
+            [
+              "Pelaje marrón y regadera",
+              "Ficha A"
+            ],
+            [
+              "Ojos redondos y cuaderno",
+              "Ficha B"
+            ],
+            [
+              "Cuerpo cuadrado y antena",
+              "Ficha C"
+            ]
+          ],
+          "hint": "Une los rasgos que aparecen juntos en cada descripción.",
+          "explanation": "Los conjuntos de rasgos distinguen a los tres personajes sin necesitar sus nombres."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué frase ayuda más a identificar un personaje entre estas tres fichas?",
+          "options": [
+            "Es muy especial.",
+            "Tiene dos brazos articulados y una antena amarilla.",
+            "Me gusta muchísimo."
+          ],
+          "answer": 1,
+          "hint": "Busca una característica observable y concreta.",
+          "explanation": "Los brazos articulados y la antena permiten reconocer al robot; las otras frases son valoraciones personales."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena este plan de escritura según sus pasos.",
+          "items": [
+            "Primero, elijo el personaje y anoto sus rasgos.",
+            "Después, agrupo los rasgos que voy a contar.",
+            "A continuación, escribo la descripción.",
+            "Al final, releo y mejoro una frase."
+          ],
+          "hint": "Sigue los marcadores que indican cada fase.",
+          "explanation": "Planificar, ordenar, escribir y revisar ayuda a que la descripción sea comprensible."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué versión permite saber de quién hablamos sin una imagen?",
+          "options": [
+            "Tiene eso de allí.",
+            "Es alguien con algo bonito.",
+            "Es una lechuza con mochila verde."
+          ],
+          "answer": 2,
+          "hint": "Comprueba si las palabras sirven a una persona que no ve la escena.",
+          "explanation": "La tercera versión nombra al personaje y un rasgo concreto; las otras dependen de referencias imprecisas."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué revisión corrige «La mochila de Plumi son verde»?",
+          "options": [
+            "La mochila de Plumi es verde.",
+            "La mochila de Plumi son verdes.",
+            "La mochila de Plumi es verdes."
+          ],
+          "answer": 0,
+          "hint": "La palabra «mochila» está en singular.",
+          "explanation": "«La mochila es verde» mantiene la concordancia en singular."
+        }
+      ],
+      "project": {
+        "title": "La ficha secreta",
+        "prompt": "Escoge a Sira, Plumi, Nori o Lumo y escribe una ficha de tres o cuatro frases sin poner su nombre; comprueba si otra persona puede identificarlo.",
+        "model": "Es un robot de cuerpo cuadrado. Tiene dos brazos articulados y una antena amarilla. Lleva una caja de herramientas de cartón. En el taller ayuda a preparar los cuentos.",
+        "checklist": [
+          "Incluyo rasgos concretos que permiten identificarlo.",
+          "Ordeno las frases para que se entiendan.",
+          "Reviso mayúscula, punto y concordancia."
+        ],
+        "extension": "Describe a otro personaje parecido y añade una diferencia que permita distinguir ambas fichas.",
+        "teacherNotes": "Observar planificación, claridad y una revisión real; admitir dictado a un adulto como acceso sin confundirlo con escritura autónoma."
+      }
+    },
+    {
+      "id": "LCL-T1-S07",
+      "week": 7,
+      "title": "La oración reparada",
+      "goal": "Revisar mayúscula inicial, punto y concordancias sencillas en un texto propio.",
+      "intro": "Nori ha guardado un borrador con errores para practicar cómo revisarlo.",
+      "guide": "nori",
+      "story": "Borrador para revisar: «sira prepara las macetas. Las flores es amarilla. lumo lleva un cuento». Modelo revisado: «Sira prepara las macetas. Las flores son amarillas. Lumo lleva un cuento». Aquí revisamos cómo empieza cada oración, los nombres propios y la concordancia.",
+      "criteria": [
+        "9.1",
+        "5.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué versión escribe el nombre con mayúscula inicial y las demás letras del nombre en minúscula?",
+          "options": [
+            "sira prepara las macetas.",
+            "Sira prepara las macetas.",
+            "SIRA prepara las macetas."
+          ],
+          "answer": 1,
+          "hint": "La primera palabra de una oración empieza con mayúscula; los nombres propios también.",
+          "explanation": "«Sira» inicia la oración y es un nombre propio; no necesitamos escribir toda la palabra con mayúsculas."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué versión concuerda con «Las flores»?",
+          "options": [
+            "Las flores son amarillas.",
+            "Las flores es amarilla.",
+            "Las flores son amarilla."
+          ],
+          "answer": 0,
+          "hint": "Revisa si hablamos de una flor o de varias.",
+          "explanation": "«Flores», «son» y «amarillas» se refieren a varias flores."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada revisión con su motivo.",
+          "pairs": [
+            [
+              "«lumo» pasa a «Lumo»",
+              "Es un nombre propio"
+            ],
+            [
+              "«son amarilla» pasa a «son amarillas»",
+              "Debe concordar en plural"
+            ],
+            [
+              "Añadir un punto al terminar",
+              "Señala el final de una oración"
+            ]
+          ],
+          "hint": "Piensa qué problema resuelve cada cambio.",
+          "explanation": "Los cambios responden a una convención o a una relación entre palabras, no al gusto de quien corrige."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena la revisión siguiendo estas indicaciones.",
+          "items": [
+            "Primero, leo el borrador completo.",
+            "Después, marco un lugar que necesita un cambio.",
+            "A continuación, escribo la corrección.",
+            "Por último, releo para comprobar el resultado."
+          ],
+          "hint": "Las expresiones temporales muestran el procedimiento acordado.",
+          "explanation": "La comprobación final permite ver si el cambio mejora realmente el texto."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Cómo puntuar dos oraciones ya completas?",
+          "options": [
+            "Nori cierra la caja Plumi guarda el cuento.",
+            "Nori cierra. la caja Plumi guarda el cuento.",
+            "Nori cierra la caja. Plumi guarda el cuento."
+          ],
+          "answer": 2,
+          "hint": "Cada acción tiene su personaje y una oración completa.",
+          "explanation": "La tercera opción separa las dos oraciones con punto y empieza «Plumi» con mayúscula."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué cambio hace más clara «Sira pone eso en aquel sitio»?",
+          "options": [
+            "Sira pone la regadera junto a la puerta.",
+            "sira pone eso en aquel sitio.",
+            "Sira pone eso en aquel sitio."
+          ],
+          "answer": 0,
+          "hint": "Sustituye las referencias imprecisas por nombres concretos.",
+          "explanation": "«La regadera» y «junto a la puerta» permiten saber qué coloca y dónde."
+        }
+      ],
+      "project": {
+        "title": "Antes y después",
+        "prompt": "Escribe dos o tres frases sobre el taller y revisa dos detalles; muestra tu versión inicial, la final y el motivo de cada cambio.",
+        "model": "Antes: «lumo lleva una cesta. Las hojas es verdes». Después: «Lumo lleva una cesta. Las hojas son verdes». Cambié la mayúscula del nombre y la concordancia.",
+        "checklist": [
+          "Conservo una versión inicial para comparar.",
+          "Realizo dos cambios que puedo explicar.",
+          "Compruebo que el texto final se entiende."
+        ],
+        "extension": "Encuentra una frase correcta que pueda hacerse más precisa sin cambiar el hecho que cuenta.",
+        "teacherNotes": "Valorar cambios justificados en un texto propio; distinguir copiar una corrección de localizar y explicar una necesidad de revisión."
+      }
+    },
+    {
+      "id": "LCL-T1-S08",
+      "week": 8,
+      "title": "El cartel con mensaje",
+      "goal": "Identificar propósito, destinatario y datos relevantes en carteles del aula.",
+      "intro": "Tres carteles esperan en la entrada del taller; cada uno ayuda a resolver una necesidad.",
+      "guide": "plumi",
+      "story": "CARTEL A. Club de cuentos del taller. El martes, después del recreo, el equipo de tercero leerá historias junto a la noria. Trae un cuento corto o elige uno de nuestra cesta. CARTEL B. Cuidamos los libros. Si encuentras una página suelta, deja el libro en la bandeja de reparación y avisa a una persona adulta. No uses pegamento sin ayuda. CARTEL C. Buscamos una regadera azul. Se perdió en el patio esta mañana. Si la encuentras, déjala junto a la puerta del taller para que Sira pueda recogerla.",
+      "criteria": [
+        "4.1"
+      ],
+      "tasks": [
+        {
+          "type": "match",
+          "prompt": "Relaciona cada cartel con su propósito.",
+          "pairs": [
+            [
+              "Cartel A",
+              "Anunciar una lectura"
+            ],
+            [
+              "Cartel B",
+              "Indicar cómo cuidar un libro dañado"
+            ],
+            [
+              "Cartel C",
+              "Pedir ayuda para encontrar un objeto"
+            ]
+          ],
+          "hint": "Busca qué se espera que haga quien lo lee.",
+          "explanation": "Anunciar, orientar y pedir ayuda son propósitos distintos que se deducen de los mensajes."
+        },
+        {
+          "type": "choice",
+          "prompt": "Plumi tiene un libro con una página suelta. ¿Qué cartel necesita?",
+          "options": [
+            "Cartel C",
+            "Cartel B",
+            "Cartel A"
+          ],
+          "answer": 1,
+          "hint": "Busca una instrucción para libros dañados.",
+          "explanation": "El cartel B explica que debe dejarlo en la bandeja de reparación y avisar a una persona adulta."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Quiénes participarán en la lectura anunciada?",
+          "options": [
+            "El equipo de tercero.",
+            "Todos los habitantes del pueblo obligatoriamente.",
+            "Solo Sira."
+          ],
+          "answer": 0,
+          "hint": "Busca a quién menciona el cartel A.",
+          "explanation": "El cartel A anuncia que el equipo de tercero leerá historias."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué dato del cartel A sirve para saber cuándo acudir?",
+          "options": [
+            "La regadera es azul.",
+            "La bandeja está junto al libro.",
+            "El martes, después del recreo."
+          ],
+          "answer": 2,
+          "hint": "Busca una expresión de tiempo en el anuncio.",
+          "explanation": "«El martes, después del recreo» concreta cuándo se realizará la lectura."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada necesidad con la información útil.",
+          "pairs": [
+            [
+              "Elegir qué llevar a la lectura",
+              "Un cuento corto o uno de la cesta"
+            ],
+            [
+              "Devolver la regadera",
+              "Dejarla junto a la puerta del taller"
+            ],
+            [
+              "Avisar de un libro dañado",
+              "Dejarlo en reparación y avisar a un adulto"
+            ]
+          ],
+          "hint": "Selecciona el dato que ayuda a actuar en cada caso.",
+          "explanation": "Cada respuesta recupera una indicación concreta de su cartel."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué se puede afirmar según el cartel C?",
+          "options": [
+            "La regadera apareció dentro de un cuento.",
+            "La regadera se perdió en el patio por la mañana.",
+            "Nori rompió la regadera."
+          ],
+          "answer": 1,
+          "hint": "Distingue lo escrito de las historias que podríamos imaginar.",
+          "explanation": "El cartel solo informa del objeto, del lugar y del momento de la pérdida; no acusa a ningún personaje."
+        }
+      ],
+      "project": {
+        "title": "El cartel que necesito",
+        "prompt": "Elige uno de los tres carteles y explica una situación en la que lo usarías; copia o señala un dato que justifique tu elección.",
+        "model": "Usaría el cartel C si encuentro una regadera azul. Dice que hay que dejarla junto a la puerta del taller, así que sabría dónde devolverla.",
+        "checklist": [
+          "Elijo un cartel para una necesidad concreta.",
+          "Señalo un dato que aparece escrito.",
+          "Explico cómo ayuda ese dato."
+        ],
+        "extension": "Propón un dato que falta en un cartel y explica cómo ayudaría a su destinatario.",
+        "teacherNotes": "Observar relación entre propósito, dato y situación; la calidad artística de un cartel propio no forma parte de esta evidencia de comprensión."
+      }
+    },
+    {
+      "id": "LCL-T1-S09",
+      "week": 9,
+      "title": "Instrucciones para abrir la noria",
+      "goal": "Reconocer pasos, orden y verbos de acción en instrucciones sencillas.",
+      "intro": "Abriremos una caja de cuentos con una noria de cartón: es un juego de mesa, no una máquina real.",
+      "guide": "nori",
+      "story": "Para abrir nuestra noria de cartón, prepara tres tarjetas: una semilla, una hoja y una flor. Coloca primero la semilla en la casilla de salida. Después, sitúa la hoja en la casilla central. Por último, pon la flor junto al dibujo de la caja. Comprueba que los dibujos siguen ese orden y levanta la solapa de papel marcada con una estrella. Debajo encontrarás una palabra del cuento. No hace falta girar piezas ni tocar mecanismos: solo usamos tarjetas, una base de cartón y una solapa ya preparada por el docente.",
+      "criteria": [
+        "4.1"
+      ],
+      "tasks": [
+        {
+          "type": "order",
+          "prompt": "Ordena la colocación de las tarjetas según las instrucciones.",
+          "items": [
+            "Coloca la semilla en la salida.",
+            "Sitúa la hoja en la casilla central.",
+            "Pon la flor junto a la caja."
+          ],
+          "hint": "Busca las palabras «primero», «después» y «por último».",
+          "explanation": "El texto pide colocar semilla, hoja y flor en ese orden."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada tarjeta con su posición.",
+          "pairs": [
+            [
+              "Semilla",
+              "Casilla de salida"
+            ],
+            [
+              "Hoja",
+              "Casilla central"
+            ],
+            [
+              "Flor",
+              "Junto al dibujo de la caja"
+            ]
+          ],
+          "hint": "Cada instrucción nombra una tarjeta y un lugar.",
+          "explanation": "Relacionar objeto y posición permite ejecutar la consigna sin adivinar."
+        },
+        {
+          "type": "choice",
+          "prompt": "Si el equipo coloca la semilla y después la flor, ¿qué paso se ha saltado?",
+          "options": [
+            "Colocar una piedra.",
+            "Girar un mecanismo.",
+            "Situar la hoja en la casilla central."
+          ],
+          "answer": 2,
+          "hint": "Compara su secuencia con el segundo paso del texto.",
+          "explanation": "Falta la hoja, que debe ir entre la semilla y la flor."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué palabra indica una acción en «levanta la solapa»?",
+          "options": [
+            "Solapa",
+            "Levanta",
+            "La"
+          ],
+          "answer": 1,
+          "hint": "Busca lo que se pide hacer.",
+          "explanation": "«Levanta» expresa la acción; «solapa» nombra el objeto sobre el que actuamos."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena las últimas acciones del juego.",
+          "items": [
+            "Comprueba el orden de las tres tarjetas.",
+            "Levanta la solapa con estrella.",
+            "Lee la palabra que estaba debajo."
+          ],
+          "hint": "Primero se revisa; solo después se descubre lo que cubría la solapa.",
+          "explanation": "Es necesario levantar la solapa para ver la palabra; antes se comprueba la secuencia."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué hace falta para este juego según el texto?",
+          "options": [
+            "Tarjetas, cartón y una solapa preparada.",
+            "Un motor y un enchufe.",
+            "Herramientas para desmontar una noria."
+          ],
+          "answer": 0,
+          "hint": "Lee la última frase: se trata de un juego de mesa.",
+          "explanation": "El texto aclara que usamos materiales de papel y cartón y que no se manipulan mecanismos."
+        }
+      ],
+      "project": {
+        "title": "El paso que faltaba",
+        "prompt": "Representa las instrucciones con tres tarjetas, retira el paso central y explica a una pareja qué falta y por qué cambia la secuencia.",
+        "model": "Falta «Sitúa la hoja en la casilla central». Sin ese paso, la semilla y la flor ya no tienen la hoja entre ellas.",
+        "checklist": [
+          "Recupero el paso que falta.",
+          "Lo sitúo en el lugar indicado.",
+          "Explico la omisión con una pista del texto."
+        ],
+        "extension": "Introduce un error de posición distinto y escribe una instrucción que permita corregirlo.",
+        "teacherNotes": "Observar comprensión del texto y explicación de la omisión; las adaptaciones motrices al colocar tarjetas no rebajan el logro lector."
+      }
+    },
+    {
+      "id": "LCL-T1-S10",
+      "week": 10,
+      "title": "El manual del pequeño taller",
+      "goal": "Redactar instrucciones claras para una construcción sencilla con materiales seguros.",
+      "intro": "Sira necesita un manual que otra persona pueda seguir sin verte trabajar.",
+      "guide": "sira",
+      "story": "Modelo del taller: soporte para una tarjeta. Materiales: una tira de cartulina ya cortada y una tarjeta ligera. Paso 1: dobla la tira por la mitad para formar una V. Paso 2: coloca la V invertida sobre la mesa, como una tienda. Paso 3: apoya la tarjeta sobre uno de sus lados y comprueba que se sostiene. Si se cae, cambia un poco la apertura del soporte. Usamos piezas preparadas; no hacen falta tijeras ni herramientas.",
+      "criteria": [
+        "5.1"
+      ],
+      "tasks": [
+        {
+          "type": "match",
+          "prompt": "Relaciona cada parte del manual con su función.",
+          "pairs": [
+            [
+              "Materiales",
+              "Indica qué necesitamos"
+            ],
+            [
+              "Pasos",
+              "Explica qué hacer y en qué orden"
+            ],
+            [
+              "Comprobación",
+              "Permite ver si funciona"
+            ]
+          ],
+          "hint": "Piensa qué pregunta responde cada parte.",
+          "explanation": "Un manual útil anticipa recursos, acciones y una forma de comprobar el resultado."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena los pasos del soporte descrito.",
+          "items": [
+            "Dobla la tira para formar una V.",
+            "Coloca la V invertida en la mesa.",
+            "Apoya la tarjeta y comprueba que se sostiene."
+          ],
+          "hint": "No puedes colocar la V antes de formarla.",
+          "explanation": "Cada paso prepara lo necesario para el siguiente."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué instrucción es más precisa para quien no ve al autor?",
+          "options": [
+            "Hazlo así.",
+            "Pon eso ahí.",
+            "Coloca la V invertida sobre la mesa."
+          ],
+          "answer": 2,
+          "hint": "Busca un objeto, una acción y una posición claros.",
+          "explanation": "La tercera opción identifica qué colocar, cómo y dónde."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué falta en «Dobla por la mitad» si no sabemos qué material se está usando?",
+          "options": [
+            "Indicar qué hay que doblar.",
+            "Escribir el nombre de un personaje.",
+            "Añadir una opinión sobre el color."
+          ],
+          "answer": 0,
+          "hint": "Comprueba si la acción tiene un objeto concreto.",
+          "explanation": "«Dobla la tira por la mitad» informa del material sobre el que se actúa."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué pregunta comprueba que el manual ha cumplido su propósito?",
+          "options": [
+            "¿Cuántas letras tiene cartulina?",
+            "¿Otra persona pudo construir el soporte siguiendo los pasos?",
+            "¿Es el invento más bonito del mundo?"
+          ],
+          "answer": 1,
+          "hint": "El propósito es permitir realizar una construcción.",
+          "explanation": "La prueba útil consiste en ver si las instrucciones permiten construir el soporte."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena el proceso de mejora del manual.",
+          "items": [
+            "Primero, escribo tres instrucciones.",
+            "Después, otra persona las prueba.",
+            "A continuación, marco un paso que genera duda.",
+            "Por último, reescribo ese paso con más precisión."
+          ],
+          "hint": "Sigue el orden de escribir, probar, observar y mejorar.",
+          "explanation": "La revisión se apoya en una dificultad observada durante la prueba."
+        }
+      ],
+      "project": {
+        "title": "Tu manual a prueba",
+        "prompt": "Escribe tres pasos para construir el soporte u otro objeto sencillo con materiales preparados; pide a una pareja que lo pruebe y revisa una instrucción.",
+        "model": "Materiales: tira y tarjeta. 1. Dobla la tira por la mitad. 2. Colócala sobre la mesa como una tienda. 3. Apoya la tarjeta y comprueba su equilibrio. Mejora: aclaro que la tira es de cartulina.",
+        "checklist": [
+          "Nombro los materiales necesarios.",
+          "Escribo acciones ordenadas y precisas.",
+          "Reviso una instrucción después de la prueba."
+        ],
+        "extension": "Añade una solución a un problema posible y comprueba si otra persona la entiende.",
+        "teacherNotes": "Observar si el alumno adapta el texto al uso real; no evaluar la destreza manual como si fuera producción escrita."
+      }
+    },
+    {
+      "id": "LCL-T1-S11",
+      "week": 11,
+      "title": "Las rimas de Lumo",
+      "goal": "Reconocer recursos sonoros sencillos y crear versos a partir de un modelo.",
+      "intro": "Lumo juega con los sonidos; su poema es un modelo para inventar, no una respuesta que debas copiar.",
+      "guide": "lumo",
+      "story": "En el taller suena una campana,\nPlumi se asoma por la ventana.\nLumo dibuja un pequeño farol,\ny Sira descansa mirando al sol.\n\nEl poema tiene cuatro versos. «Campana» y «ventana» comparten sonidos finales; también «farol» y «sol». Podemos cambiar personajes, acciones y parejas de palabras para crear otro poema.",
+      "criteria": [
+        "8.2"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Cuántos versos tiene el poema del modelo, sin contar la explicación?",
+          "options": [
+            "Dos",
+            "Cuatro",
+            "Seis"
+          ],
+          "answer": 1,
+          "hint": "Cada línea del poema es un verso.",
+          "explanation": "Las cuatro líneas del poema forman cuatro versos; la explicación posterior es otro texto."
+        },
+        {
+          "type": "match",
+          "prompt": "Une las palabras que comparten sus sonidos finales.",
+          "pairs": [
+            [
+              "Campana",
+              "Ventana"
+            ],
+            [
+              "Farol",
+              "Caracol"
+            ],
+            [
+              "Hoja",
+              "Roja"
+            ]
+          ],
+          "hint": "Prueba a decir las palabras despacio y escucha su final.",
+          "explanation": "Estas parejas comparten sonidos finales que podemos aprovechar al crear rimas."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué palabra podría completar una pareja que rime con «camino»?",
+          "options": [
+            "Destino",
+            "Mesa",
+            "Bosque"
+          ],
+          "answer": 0,
+          "hint": "Compara la parte final de cada palabra con «camino».",
+          "explanation": "«Camino» y «destino» comparten el final sonoro «ino»."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué verso del modelo cuenta una acción de Lumo?",
+          "options": [
+            "Plumi se asoma por la ventana.",
+            "En el taller suena una campana.",
+            "Lumo dibuja un pequeño farol."
+          ],
+          "answer": 2,
+          "hint": "Busca el nombre de Lumo y lo que hace.",
+          "explanation": "El tercer verso nombra a Lumo y cuenta que dibuja un farol."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena este procedimiento para crear y revisar una estrofa.",
+          "items": [
+            "Primero, elijo algo que quiero contar.",
+            "Después, busco palabras para mis versos.",
+            "A continuación, escribo cuatro versos.",
+            "Por último, los releo y reviso un cambio."
+          ],
+          "hint": "Los pasos organizan el trabajo; no deciden cuál es el único poema posible.",
+          "explanation": "Podemos planificar y revisar una creación sin imponer el contenido de sus versos."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué afirmación describe el modelo sin imponer una regla a todos los poemas?",
+          "options": [
+            "Todos los poemas deben hablar de faroles.",
+            "Este poema usa parejas de palabras con finales parecidos.",
+            "Si un poema no rima, deja de ser poema."
+          ],
+          "answer": 1,
+          "hint": "Distingue una observación del modelo de una obligación universal.",
+          "explanation": "Este modelo usa rimas, pero existen poemas con otras formas y sin rima."
+        }
+      ],
+      "project": {
+        "title": "Una estrofa tuya",
+        "prompt": "Escribe cuatro versos sobre el taller o el patio; puedes usar una pareja de palabras con finales parecidos y contar una acción de un personaje.",
+        "model": "Sobre la mesa descansa una hoja,\nSira dibuja una flor muy roja.\nNori prepara un rincón de cartón,\nLumo le presta su imaginación.",
+        "checklist": [
+          "Escribo cuatro versos con una idea propia.",
+          "Pruebo un recurso sonoro o una repetición elegida.",
+          "Releo y explico una decisión creativa."
+        ],
+        "extension": "Crea otra versión cambiando la rima por una repetición al principio de los versos y compara el efecto.",
+        "teacherNotes": "Observar creación a partir de modelos y revisión; no convertir rima, gusto personal o capacidad de lectura en voz alta en una nota estética automática."
+      }
+    },
+    {
+      "id": "LCL-T1-S12",
+      "week": 12,
+      "title": "La noticia que sí lo cuenta",
+      "goal": "Distinguir qué ocurrió, dónde y quién participó en una noticia breve.",
+      "intro": "Plumi prepara una noticia ficticia y necesita separar los datos de lo que aún no sabemos.",
+      "guide": "plumi",
+      "story": "El taller estrena un rincón de reparación.\nEl martes, Sira, Nori, Plumi y Lumo prepararon un rincón para cuidar los cuentos en el taller de la noria. Colocaron una bandeja para libros con páginas sueltas y otra para materiales de papel. Después revisaron seis cuentos con ayuda de una persona adulta. Dos necesitaban una reparación; los otros cuatro regresaron a la cesta de lectura. El equipo escribió un cartel para explicar dónde dejar los libros dañados. Todavía no han contado cuántos libros revisarán la próxima semana. Plumi anotó los datos en su cuaderno antes de redactar esta noticia. La información procede del registro del taller, no de una competición.",
+      "criteria": [
+        "4.1"
+      ],
+      "tasks": [
+        {
+          "type": "match",
+          "prompt": "Relaciona cada pregunta periodística con el dato de la noticia.",
+          "pairs": [
+            [
+              "¿Qué ocurrió?",
+              "Prepararon un rincón de reparación"
+            ],
+            [
+              "¿Dónde?",
+              "En el taller de la noria"
+            ],
+            [
+              "¿Quiénes participaron?",
+              "Sira, Nori, Plumi y Lumo"
+            ]
+          ],
+          "hint": "Busca el acontecimiento, el lugar y sus participantes.",
+          "explanation": "Estos tres datos aparecen en la primera parte de la noticia."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Cuántos cuentos necesitaban reparación?",
+          "options": [
+            "Seis",
+            "Cuatro",
+            "Dos"
+          ],
+          "answer": 2,
+          "hint": "No confundas los cuentos revisados con los que tenían daños.",
+          "explanation": "Revisaron seis cuentos, pero el texto precisa que dos necesitaban reparación."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué afirmación todavía no está comprobada?",
+          "options": [
+            "La próxima semana revisarán diez libros.",
+            "El equipo escribió un cartel.",
+            "Había una bandeja para libros dañados."
+          ],
+          "answer": 0,
+          "hint": "Busca qué dice el texto sobre la semana siguiente.",
+          "explanation": "El texto dice que todavía no han contado cuántos libros revisarán; no podemos afirmar que serán diez."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena las acciones narradas en esta noticia.",
+          "items": [
+            "Prepararon el rincón y sus bandejas.",
+            "Revisaron seis cuentos.",
+            "Escribieron un cartel para los libros dañados."
+          ],
+          "hint": "Observa las expresiones «después» y la secuencia de las acciones.",
+          "explanation": "Primero se prepara el espacio; después se revisan cuentos y se escribe el cartel."
+        },
+        {
+          "type": "match",
+          "prompt": "Une cada afirmación con la frase que la respalda.",
+          "pairs": [
+            [
+              "No todos los cuentos necesitaban arreglo.",
+              "Dos necesitaban una reparación; los otros cuatro regresaron a la cesta."
+            ],
+            [
+              "Plumi comprobó datos antes de escribir.",
+              "Plumi anotó los datos en su cuaderno antes de redactar esta noticia."
+            ]
+          ],
+          "hint": "Busca una prueba escrita para cada afirmación.",
+          "explanation": "Las frases permiten justificar ambas respuestas sin añadir información inventada."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué dato aparece en el titular y se desarrolla en la noticia?",
+          "options": [
+            "Que hubo una competición.",
+            "Que el taller estrena un rincón de reparación.",
+            "Que todos los cuentos estaban rotos."
+          ],
+          "answer": 1,
+          "hint": "El titular anuncia el hecho principal.",
+          "explanation": "La noticia desarrolla cómo se preparó el nuevo rincón; no afirma que hubiera una competición ni que todos los libros estuvieran dañados."
+        }
+      ],
+      "project": {
+        "title": "El panel de datos comprobados",
+        "prompt": "Completa tres casillas: qué ocurrió, dónde y quién participó; añade una frase del texto que apoye un dato y una pregunta que quede pendiente.",
+        "model": "Qué: prepararon un rincón de reparación. Dónde: taller de la noria. Quién: Sira, Nori, Plumi y Lumo. Pista: «prepararon un rincón para cuidar los cuentos». Falta saber cuántos libros revisarán después.",
+        "checklist": [
+          "Distingo acontecimiento, lugar y participantes.",
+          "Relaciono un dato con una pista escrita.",
+          "No presento una duda como un hecho."
+        ],
+        "extension": "Propón un titular alternativo que conserve el acontecimiento principal sin añadir datos nuevos.",
+        "teacherNotes": "Observar selección y justificación de información; no tomar el acierto de una sola pregunta como prueba de comprensión completa."
+      }
+    },
+    {
+      "id": "LCL-T1-S13",
+      "week": 13,
+      "title": "Una entrevista para informar",
+      "goal": "Planificar preguntas pertinentes para obtener datos de un hecho del aula.",
+      "intro": "Sira prepara un guion y unas notas que usaremos después para una noticia breve.",
+      "guide": "sira",
+      "story": "Entrevista ficticia de práctica. Nori explica un proyecto del equipo: «El lunes 30 de noviembre construimos un organizador de cartón en el taller. Participamos Sira, Plumi, Lumo y yo. Tiene tres compartimentos para separar tarjetas de cuentos». Notas comprobadas: día, lunes 30 de noviembre; lugar, taller; participantes, los cuatro personajes; objeto, organizador de cartón; finalidad, separar tarjetas. No consta que hayan ganado un premio ni que todos los materiales del taller quepan en él.",
+      "criteria": [
+        "5.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "Para saber la finalidad del organizador, ¿qué pregunta es pertinente?",
+          "options": [
+            "¿Cuál es tu comida favorita?",
+            "¿Para qué sirve el organizador?",
+            "¿Te gusta más el verano?"
+          ],
+          "answer": 1,
+          "hint": "Busca una pregunta relacionada con el uso del objeto.",
+          "explanation": "«¿Para qué sirve?» permite obtener información sobre su finalidad."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada pregunta con el dato que busca.",
+          "pairs": [
+            [
+              "¿Cuándo lo construisteis?",
+              "Lunes 30 de noviembre"
+            ],
+            [
+              "¿Dónde trabajasteis?",
+              "En el taller"
+            ],
+            [
+              "¿Quiénes participaron?",
+              "Los cuatro personajes"
+            ]
+          ],
+          "hint": "Cada pregunta pide un tipo de información distinto.",
+          "explanation": "Cuándo, dónde y quién ayudan a organizar datos necesarios para informar."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué pregunta evita dar por hecho algo que no aparece en las notas?",
+          "options": [
+            "¿Qué premio ganasteis?",
+            "¿Por qué lo fabricaste tú solo?",
+            "¿Qué materiales utilizasteis?"
+          ],
+          "answer": 2,
+          "hint": "Comprueba qué suposiciones contienen las preguntas.",
+          "explanation": "Preguntar por los materiales no presupone un premio ni un trabajo individual; las notas hablan de un equipo y cartón."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena este plan de entrevista.",
+          "items": [
+            "Primero, decido qué hecho quiero conocer.",
+            "Después, preparo tres preguntas pertinentes.",
+            "A continuación, escucho y anoto respuestas breves.",
+            "Por último, confirmo un dato que no haya entendido."
+          ],
+          "hint": "La preparación precede a las preguntas y la comprobación se hace con las respuestas.",
+          "explanation": "El plan ayuda a obtener información utilizable sin inventar los datos que falten."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué nota resume correctamente la respuesta sobre la utilidad?",
+          "options": [
+            "Sirve para separar tarjetas de cuentos.",
+            "Ganaron el premio a todos los inventos.",
+            "Sirve para guardar cualquier objeto del colegio."
+          ],
+          "answer": 0,
+          "hint": "Conserva el dato sin exagerar su alcance.",
+          "explanation": "Nori habla de separar tarjetas de cuentos; no menciona premios ni cualquier tipo de objeto."
+        },
+        {
+          "type": "choice",
+          "prompt": "Si no has entendido el número de compartimentos, ¿qué puedes preguntar?",
+          "options": [
+            "Entonces tenía cien, ¿verdad?",
+            "¿Puedes confirmar cuántos compartimentos tiene?",
+            "No hace falta comprobarlo."
+          ],
+          "answer": 1,
+          "hint": "Pedir una confirmación es mejor que inventar un número.",
+          "explanation": "La pregunta permite verificar el dato; en las notas de práctica se confirma que son tres."
+        }
+      ],
+      "project": {
+        "title": "Tres preguntas y sus notas",
+        "prompt": "Escribe un guion de tres preguntas sobre el proyecto ficticio y anota las respuestas del modelo; con el docente puedes usar un hecho del aula sin nombres personales.",
+        "model": "¿Qué construisteis? Un organizador de cartón. ¿Dónde? En el taller. ¿Para qué sirve? Para separar tarjetas de cuentos. Dato confirmado: tiene tres compartimentos.",
+        "checklist": [
+          "Mis preguntas se relacionan con un mismo hecho.",
+          "Anoto respuestas breves sin añadir suposiciones.",
+          "Compruebo un dato antes de usarlo."
+        ],
+        "extension": "Añade una pregunta abierta sobre una dificultad del proceso y distingue qué respuesta falta por obtener.",
+        "teacherNotes": "Observar la planificación escrita y las notas; si se entrevista realmente, supervisar la actividad y sustituir los datos ficticios solo por información verificada."
+      }
+    },
+    {
+      "id": "LCL-T1-S14",
+      "week": 14,
+      "title": "La gaceta de los descubrimientos",
+      "goal": "Escribir un titular y una entrada breve con datos comprobables de las notas preparadas.",
+      "intro": "En esta micromisión basta un titular y dos frases; las notas de S13 ya están disponibles.",
+      "guide": "lumo",
+      "story": "Notas de la entrevista ficticia S13: el lunes 30 de noviembre, Nori, Sira, Plumi y Lumo construyeron un organizador de cartón en el taller. Tiene tres compartimentos y sirve para separar tarjetas de cuentos. Plantilla: titular; frase 1 con qué pasó y dónde; frase 2 con una utilidad comprobada.",
+      "criteria": [
+        "5.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué titular se apoya en las notas?",
+          "options": [
+            "El equipo gana un premio mundial.",
+            "El taller construye un organizador de tarjetas.",
+            "Un organizador puede guardar cualquier cosa."
+          ],
+          "answer": 1,
+          "hint": "El titular debe anunciar un hecho comprobado.",
+          "explanation": "Las notas confirman la construcción del organizador; no mencionan premios ni una capacidad ilimitada."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué frase informa de qué pasó y dónde?",
+          "options": [
+            "El equipo construyó un organizador de cartón en el taller.",
+            "Seguro que es el mejor invento del año.",
+            "Algún día habrá un objeto en un sitio."
+          ],
+          "answer": 0,
+          "hint": "Busca una acción concreta y un lugar indicado en las notas.",
+          "explanation": "La primera frase recoge el hecho y el lugar sin añadir valoraciones ni información nueva."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada dato con su papel en la entrada.",
+          "pairs": [
+            [
+              "Lunes 30 de noviembre",
+              "Cuándo ocurrió"
+            ],
+            [
+              "Separar tarjetas de cuentos",
+              "Para qué sirve"
+            ]
+          ],
+          "hint": "Recupera dos datos de la entrevista ya preparada.",
+          "explanation": "La fecha sitúa el hecho y la utilidad explica la finalidad del objeto."
+        }
+      ],
+      "project": {
+        "title": "Titular y dos frases",
+        "prompt": "Usa las notas de S13 para escribir un titular y dos frases; comprueba un dato con las notas antes de terminar.",
+        "model": "Un organizador para las tarjetas. El lunes 30 de noviembre, el equipo construyó un organizador de cartón en el taller. Sus tres compartimentos sirven para separar tarjetas de cuentos.",
+        "checklist": [
+          "El titular anuncia el hecho sin exagerarlo.",
+          "Mis dos frases usan datos de las notas.",
+          "Compruebo un dato y reviso mayúscula y punto."
+        ],
+        "extension": "Si dispones de más tiempo, escribe otro titular que informe del mismo hecho con palabras diferentes.",
+        "teacherNotes": "Micromisión de 5–8 minutos: observar una producción breve y una comprobación; ilustración y maquetación extensa son opcionales y quedan fuera de esta carga."
+      }
+    },
+    {
+      "id": "LCL-T1-S15",
+      "week": 15,
+      "title": "La mesa de revisión",
+      "goal": "Revisar claridad, repeticiones y puntuación de una noticia mediante comparación.",
+      "intro": "Plumi abre la mesa de revisión: cada cambio debe mejorar algo y conservar los hechos.",
+      "guide": "plumi",
+      "story": "Notas verificadas del modelo: organizador de cartón, tres compartimentos, lunes 30 de noviembre, taller, equipo de cuatro personajes, tarjetas de cuentos. Borrador con aspectos para revisar: «el equipo construyó un organizador. El equipo lo hizo el lunes 30 de noviembre en el taller. Eso tiene tres compartimentos. Es el mejor invento del mundo sirve para separar tarjetas de cuentos». Comprobaremos precisión, repeticiones, puntuación y afirmaciones que las notas no sostienen.",
+      "criteria": [
+        "9.1",
+        "5.1"
+      ],
+      "tasks": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué cambio inicial aplica una convención necesaria?",
+          "options": [
+            "el EQUIPO construyó un organizador.",
+            "El equipo construyó un organizador.",
+            "el equipo construyó un organizador"
+          ],
+          "answer": 1,
+          "hint": "Una oración empieza con mayúscula y termina con un signo adecuado.",
+          "explanation": "«El» inicia con mayúscula y la oración termina con punto."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué combinación reduce una repetición sin perder datos?",
+          "options": [
+            "El equipo construyó un organizador el lunes 30 de noviembre en el taller.",
+            "No pasó nada en el taller.",
+            "El lunes desapareció todo."
+          ],
+          "answer": 0,
+          "hint": "Conserva la acción, la fecha y el lugar.",
+          "explanation": "La primera opción reúne los datos de las dos primeras frases y evita repetir «El equipo»."
+        },
+        {
+          "type": "match",
+          "prompt": "Relaciona cada problema con una revisión útil.",
+          "pairs": [
+            [
+              "«Eso tiene tres compartimentos».",
+              "Nombrar el organizador en lugar de «eso»"
+            ],
+            [
+              "«Es el mejor invento del mundo».",
+              "Retirar una afirmación no comprobada"
+            ],
+            [
+              "Dos oraciones unidas sin signo.",
+              "Separarlas con un punto cuando corresponda"
+            ]
+          ],
+          "hint": "Busca un cambio que resuelva el problema concreto.",
+          "explanation": "La precisión, la comprobación de datos y la puntuación cumplen funciones distintas en la revisión."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué versión conserva el dato exacto sobre los compartimentos?",
+          "options": [
+            "El organizador tiene muchos compartimentos, quizá cien.",
+            "El organizador no tiene compartimentos.",
+            "El organizador tiene tres compartimentos."
+          ],
+          "answer": 2,
+          "hint": "Consulta las notas verificadas que acompañan al borrador.",
+          "explanation": "Las notas dicen tres; una revisión debe conservar ese dato sin exagerarlo ni negarlo."
+        },
+        {
+          "type": "order",
+          "prompt": "Ordena una revisión basada en evidencias.",
+          "items": [
+            "Primero, comparo el borrador con las notas.",
+            "Después, marco dos fragmentos que necesitan mejora.",
+            "A continuación, escribo una versión revisada.",
+            "Por último, compruebo que los datos se mantienen."
+          ],
+          "hint": "La comprobación de hechos aparece al principio y al final del proceso.",
+          "explanation": "Revisar no consiste solo en cambiar palabras: también exige conservar la información comprobada."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué explicación justifica un cambio de revisión?",
+          "options": [
+            "Lo cambié porque toda frase larga está mal.",
+            "Sustituí «eso» por «el organizador» para aclarar de qué hablamos.",
+            "Lo cambié para decir que ganaron un premio."
+          ],
+          "answer": 1,
+          "hint": "Busca una razón relacionada con la claridad y los datos.",
+          "explanation": "Nombrar el objeto elimina una referencia imprecisa sin inventar información."
+        }
+      ],
+      "project": {
+        "title": "Dos cambios con motivo",
+        "prompt": "Revisa tu noticia de S14 o el borrador del modelo; marca dos cambios y explica qué mejora cada uno.",
+        "model": "El equipo construyó un organizador de cartón el lunes 30 de noviembre en el taller. El organizador tiene tres compartimentos para separar tarjetas de cuentos. Uní dos frases para evitar una repetición y sustituí «eso» para aclarar el objeto.",
+        "checklist": [
+          "Comparo mi texto con las notas comprobadas.",
+          "Realizo dos mejoras concretas.",
+          "Explico sus motivos sin añadir hechos nuevos."
+        ],
+        "extension": "Prepara una versión para lectores que no conocen a los personajes y explica qué información necesitarían.",
+        "teacherNotes": "Observar el antes y el después y las razones del alumno; una sugerencia de pareja o una adaptación de acceso no rebaja por sí sola la valoración."
+      }
+    },
+    {
+      "id": "LCL-T1-S16",
+      "week": 16,
+      "title": "La postal del trimestre",
+      "goal": "Escribir un mensaje breve con destinatario, idea principal y cierre.",
+      "intro": "Sira propone despedir el trimestre con una postal pequeña y bien revisada.",
+      "guide": "sira",
+      "story": "Hola, equipo de la noria:\nEste trimestre aprendí a buscar pistas en los cuentos. Me gustaría compartir otra historia al volver.\nUn saludo, Sira.",
+      "criteria": [
+        "5.1"
+      ],
+      "tasks": [
+        {
+          "type": "match",
+          "prompt": "Une cada fragmento con su función en la postal.",
+          "pairs": [
+            [
+              "Hola, equipo de la noria:",
+              "Saludo al destinatario"
+            ],
+            [
+              "Este trimestre aprendí a buscar pistas en los cuentos.",
+              "Idea que se comunica"
+            ],
+            [
+              "Un saludo, Sira.",
+              "Cierre y firma"
+            ]
+          ],
+          "hint": "Piensa a quién habla, qué cuenta y cómo termina.",
+          "explanation": "La postal distingue destinatario, mensaje y cierre para orientar a quien la lee."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué oración empieza y termina de forma adecuada?",
+          "options": [
+            "me gustó leer cuentos",
+            "Me gustó leer cuentos.",
+            "me gustó leer cuentos."
+          ],
+          "answer": 1,
+          "hint": "Revisa la primera letra y el signo final.",
+          "explanation": "La segunda opción usa mayúscula inicial y punto final."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué frase mantiene el propósito de contar algo del trimestre?",
+          "options": [
+            "Las piedras no tienen páginas.",
+            "Compra un motor inmediatamente.",
+            "Este trimestre inventé un final para un cuento."
+          ],
+          "answer": 2,
+          "hint": "El mensaje puede contar un aprendizaje o una experiencia del trimestre.",
+          "explanation": "La tercera frase comparte una experiencia relacionada con el trabajo realizado."
+        }
+      ],
+      "project": {
+        "title": "Tu postal de dos frases",
+        "prompt": "Elige un destinatario del equipo y escribe dos frases sobre un aprendizaje o una actividad; añade un saludo y un cierre y comprueba un detalle.",
+        "model": "Hola, Plumi: Este trimestre aprendí a ordenar un cuento. Al volver quiero inventar otra historia. Un saludo, del equipo de tercero.",
+        "checklist": [
+          "Incluyo destinatario y cierre.",
+          "Mis dos frases comunican una idea comprensible.",
+          "Señalo una mayúscula o un punto que he revisado."
+        ],
+        "extension": "Si queda tiempo, adapta la misma postal a otro destinatario y explica qué saludo o información cambias.",
+        "teacherNotes": "Micromisión de 5–8 minutos: observar mensaje breve y una revisión; admitir un modelo de frase sin exigir una producción extensa ni experiencias personales íntimas."
+      }
+    }
+  ]
+}
+
